@@ -32,17 +32,32 @@ namespace cafeteria_ReNy
             MessageBox.Show("Você escreveu");
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Você clicou");
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("");
-        }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Form2 tela2 = new Form2();
+            tela2.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Form3 tela3 = new Form3();
+            tela3.ShowDialog();
+            this.Visible = true;
+            
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
         {
 
         }

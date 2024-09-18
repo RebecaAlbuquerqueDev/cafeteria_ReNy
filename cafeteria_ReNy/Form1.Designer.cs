@@ -29,168 +29,82 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(cafeteria));
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
-            this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.clToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.funcionárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.encomendaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hitóricoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pedidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.perfilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.fotoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nomeDeUsuárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.endereçoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bnt_login = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.group_login = new System.Windows.Forms.GroupBox();
-            this.menuStrip2.SuspendLayout();
-            this.group_login.SuspendLayout();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Location = new System.Drawing.Point(0, 24);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(847, 24);
-            this.menuStrip1.TabIndex = 4;
-            this.menuStrip1.Text = "menuStrip1";
             // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // menuStrip2
+            // textBox1
             // 
-            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cadastroToolStripMenuItem,
-            this.encomendaToolStripMenuItem,
-            this.hitóricoToolStripMenuItem,
-            this.perfilToolStripMenuItem});
-            this.menuStrip2.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(847, 24);
-            this.menuStrip2.TabIndex = 7;
-            this.menuStrip2.Text = "menuStrip2";
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(250)))));
+            this.textBox1.Font = new System.Drawing.Font("MV Boli", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.textBox1.Location = new System.Drawing.Point(435, 335);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textBox1.Size = new System.Drawing.Size(198, 64);
+            this.textBox1.TabIndex = 2;
+            this.textBox1.Text = "   login";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
-            // cadastroToolStripMenuItem
+            // textBox2
             // 
-            this.cadastroToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.clToolStripMenuItem,
-            this.funcionárioToolStripMenuItem});
-            this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
-            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
-            this.cadastroToolStripMenuItem.Text = "cadastro";
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(250)))));
+            this.textBox2.Font = new System.Drawing.Font("MV Boli", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.textBox2.Location = new System.Drawing.Point(435, 454);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(198, 64);
+            this.textBox2.TabIndex = 3;
+            this.textBox2.Text = "criar conta";
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // clToolStripMenuItem
+            // label1
             // 
-            this.clToolStripMenuItem.Name = "clToolStripMenuItem";
-            this.clToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
-            this.clToolStripMenuItem.Text = "cliente";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("MV Boli", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label1.Location = new System.Drawing.Point(338, 196);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(383, 63);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Cafeteria ReNy";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
-            // funcionárioToolStripMenuItem
+            // pictureBox1
             // 
-            this.funcionárioToolStripMenuItem.Name = "funcionárioToolStripMenuItem";
-            this.funcionárioToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
-            this.funcionárioToolStripMenuItem.Text = "funcionário";
-            // 
-            // encomendaToolStripMenuItem
-            // 
-            this.encomendaToolStripMenuItem.Name = "encomendaToolStripMenuItem";
-            this.encomendaToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
-            this.encomendaToolStripMenuItem.Text = "encomenda";
-            // 
-            // hitóricoToolStripMenuItem
-            // 
-            this.hitóricoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.pedidosToolStripMenuItem});
-            this.hitóricoToolStripMenuItem.Name = "hitóricoToolStripMenuItem";
-            this.hitóricoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.hitóricoToolStripMenuItem.Text = "hitórico";
-            // 
-            // pedidosToolStripMenuItem
-            // 
-            this.pedidosToolStripMenuItem.Name = "pedidosToolStripMenuItem";
-            this.pedidosToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
-            this.pedidosToolStripMenuItem.Text = "pedidos";
-            // 
-            // perfilToolStripMenuItem
-            // 
-            this.perfilToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fotoToolStripMenuItem,
-            this.nomeDeUsuárioToolStripMenuItem,
-            this.endereçoToolStripMenuItem});
-            this.perfilToolStripMenuItem.Name = "perfilToolStripMenuItem";
-            this.perfilToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
-            this.perfilToolStripMenuItem.Text = "perfil";
-            // 
-            // fotoToolStripMenuItem
-            // 
-            this.fotoToolStripMenuItem.Name = "fotoToolStripMenuItem";
-            this.fotoToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
-            this.fotoToolStripMenuItem.Text = "foto";
-            // 
-            // nomeDeUsuárioToolStripMenuItem
-            // 
-            this.nomeDeUsuárioToolStripMenuItem.Name = "nomeDeUsuárioToolStripMenuItem";
-            this.nomeDeUsuárioToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
-            this.nomeDeUsuárioToolStripMenuItem.Text = "nome de usuário";
-            // 
-            // endereçoToolStripMenuItem
-            // 
-            this.endereçoToolStripMenuItem.Name = "endereçoToolStripMenuItem";
-            this.endereçoToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
-            this.endereçoToolStripMenuItem.Text = "endereço";
-            // 
-            // bnt_login
-            // 
-            this.bnt_login.BackColor = System.Drawing.Color.RosyBrown;
-            this.bnt_login.ForeColor = System.Drawing.Color.Black;
-            this.bnt_login.Location = new System.Drawing.Point(56, 33);
-            this.bnt_login.Name = "bnt_login";
-            this.bnt_login.Size = new System.Drawing.Size(75, 23);
-            this.bnt_login.TabIndex = 8;
-            this.bnt_login.Text = "login";
-            this.bnt_login.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(56, 71);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // group_login
-            // 
-            this.group_login.BackColor = System.Drawing.Color.RosyBrown;
-            this.group_login.Controls.Add(this.button3);
-            this.group_login.Controls.Add(this.bnt_login);
-            this.group_login.ForeColor = System.Drawing.Color.Black;
-            this.group_login.Location = new System.Drawing.Point(215, 314);
-            this.group_login.Name = "group_login";
-            this.group_login.Size = new System.Drawing.Size(200, 100);
-            this.group_login.TabIndex = 10;
-            this.group_login.TabStop = false;
-            this.group_login.Text = "Já tem uma conta ?";
+            this.pictureBox1.Image = global::cafeteria_ReNy.Properties.Resources.Design_sem_nome__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(-997, 27);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(646, 478);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
             // 
             // cafeteria
             // 
-            this.ClientSize = new System.Drawing.Size(847, 573);
-            this.Controls.Add(this.group_login);
-            this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.menuStrip2);
-            this.ForeColor = System.Drawing.Color.RosyBrown;
-            this.MainMenuStrip = this.menuStrip1;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(174)))), ((int)(((byte)(153)))));
+            this.ClientSize = new System.Drawing.Size(1048, 716);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.textBox2);
+            this.ForeColor = System.Drawing.Color.Black;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "cafeteria";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "cafeteria.reny";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.menuStrip2.ResumeLayout(false);
-            this.menuStrip2.PerformLayout();
-            this.group_login.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -202,22 +116,11 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.MenuStrip menuStrip2;
-        private System.Windows.Forms.ToolStripMenuItem cadastroToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem clToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem funcionárioToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem encomendaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hitóricoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pedidosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem perfilToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem fotoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem nomeDeUsuárioToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem endereçoToolStripMenuItem;
-        private System.Windows.Forms.Button bnt_login;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.GroupBox group_login;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
