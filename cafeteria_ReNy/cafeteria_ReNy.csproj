@@ -293,5 +293,50 @@
   <ItemGroup>
     <None Include="Resources\Captura de tela 2024-09-23 1203036.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dataset-card.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cafeteria RenY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cafeteria RenY1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome %282%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cafeteria RenY %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cafeteria RenY %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cafeteria RenY %281%293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cafeteria RenY %281%294.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cafeteria RenY %281%295.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cafeteria RenY %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cafeteria RenY %282%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cafeteria RenY %282%293.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

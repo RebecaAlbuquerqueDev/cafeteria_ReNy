@@ -133,6 +133,16 @@ namespace cafeteria_ReNy.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Cafeteria_RenY {
+            get {
+                object obj = ResourceManager.GetObject("Cafeteria RenY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Cafeteria_RenY__1_ {
             get {
                 object obj = ResourceManager.GetObject("Cafeteria RenY (1)", resourceCulture);
@@ -143,9 +153,89 @@ namespace cafeteria_ReNy.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Cafeteria_RenY__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("Cafeteria RenY (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cafeteria_RenY__1_2 {
+            get {
+                object obj = ResourceManager.GetObject("Cafeteria RenY (1)2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cafeteria_RenY__1_3 {
+            get {
+                object obj = ResourceManager.GetObject("Cafeteria RenY (1)3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cafeteria_RenY__1_4 {
+            get {
+                object obj = ResourceManager.GetObject("Cafeteria RenY (1)4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cafeteria_RenY__1_5 {
+            get {
+                object obj = ResourceManager.GetObject("Cafeteria RenY (1)5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Cafeteria_RenY__2_ {
             get {
                 object obj = ResourceManager.GetObject("Cafeteria RenY (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cafeteria_RenY__2_1 {
+            get {
+                object obj = ResourceManager.GetObject("Cafeteria RenY (2)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cafeteria_RenY__2_2 {
+            get {
+                object obj = ResourceManager.GetObject("Cafeteria RenY (2)2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cafeteria_RenY__2_3 {
+            get {
+                object obj = ResourceManager.GetObject("Cafeteria RenY (2)3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -186,6 +276,16 @@ namespace cafeteria_ReNy.Properties {
         internal static System.Drawing.Bitmap Cafeteria_RenY__8_ {
             get {
                 object obj = ResourceManager.GetObject("Cafeteria RenY (8)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cafeteria_RenY1 {
+            get {
+                object obj = ResourceManager.GetObject("Cafeteria RenY1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -393,9 +493,39 @@ namespace cafeteria_ReNy.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dataset_card {
+            get {
+                object obj = ResourceManager.GetObject("dataset-card", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Design_sem_nome {
+            get {
+                object obj = ResourceManager.GetObject("Design sem nome", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Design_sem_nome__1_ {
             get {
                 object obj = ResourceManager.GetObject("Design sem nome (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Design_sem_nome__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("Design sem nome (1)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -533,6 +663,16 @@ namespace cafeteria_ReNy.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Design_sem_nome__2_2 {
+            get {
+                object obj = ResourceManager.GetObject("Design sem nome (2)2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Design_sem_nome__7_ {
             get {
                 object obj = ResourceManager.GetObject("Design sem nome (7)", resourceCulture);
@@ -556,6 +696,16 @@ namespace cafeteria_ReNy.Properties {
         internal static System.Drawing.Bitmap Design_sem_nome__9_ {
             get {
                 object obj = ResourceManager.GetObject("Design sem nome (9)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Design_sem_nome1 {
+            get {
+                object obj = ResourceManager.GetObject("Design sem nome1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
