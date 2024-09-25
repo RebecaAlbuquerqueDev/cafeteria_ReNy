@@ -240,8 +240,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(174)))), ((int)(((byte)(153)))));
-            this.BackgroundImage = global::cafeteria_ReNy.Properties.Resources.Cafeteria_RenY__1_2;
-            this.ClientSize = new System.Drawing.Size(1398, 894);
+            this.BackgroundImage = global::cafeteria_ReNy.Properties.Resources.Cafeteria_RenY__2_6;
+            this.ClientSize = new System.Drawing.Size(1391, 894);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);

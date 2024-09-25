@@ -72,7 +72,7 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.txbNome);
-            this.panel1.Location = new System.Drawing.Point(118, 163);
+            this.panel1.Location = new System.Drawing.Point(229, 295);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(410, 413);
             this.panel1.TabIndex = 0;
@@ -171,7 +171,7 @@
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.comboBox1);
-            this.panel2.Location = new System.Drawing.Point(566, 163);
+            this.panel2.Location = new System.Drawing.Point(677, 295);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(413, 413);
             this.panel2.TabIndex = 1;
@@ -287,7 +287,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(934, 604);
+            this.button1.Location = new System.Drawing.Point(1045, 736);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 3;
@@ -301,7 +301,7 @@
             this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(226)))));
             this.label11.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label11.Location = new System.Drawing.Point(112, 117);
+            this.label11.Location = new System.Drawing.Point(223, 249);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(150, 31);
             this.label11.TabIndex = 4;
@@ -313,7 +313,7 @@
             this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(226)))));
             this.label12.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label12.Location = new System.Drawing.Point(560, 117);
+            this.label12.Location = new System.Drawing.Point(671, 249);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(119, 31);
             this.label12.TabIndex = 5;
@@ -321,7 +321,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(828, 604);
+            this.button2.Location = new System.Drawing.Point(939, 736);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 6;
@@ -335,7 +335,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(174)))), ((int)(((byte)(153)))));
             this.BackgroundImage = global::cafeteria_ReNy.Properties.Resources.Cafeteria_RenY__2_3;
-            this.ClientSize = new System.Drawing.Size(1058, 679);
+            this.ClientSize = new System.Drawing.Size(1382, 911);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);

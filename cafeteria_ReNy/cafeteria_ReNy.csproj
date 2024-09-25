@@ -338,5 +338,29 @@
   <ItemGroup>
     <None Include="Resources\Cafeteria RenY %282%293.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cafeteria RenY %282%294.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cafeteria RenY %282%295.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cafeteria RenY %282%296.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cafeteria RenY %282%297.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome %286%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
