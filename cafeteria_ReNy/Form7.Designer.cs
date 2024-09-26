@@ -42,6 +42,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -49,6 +51,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -88,7 +91,7 @@
             this.pictureBox3.Image = global::cafeteria_ReNy.Properties.Resources.Design_sem_nome__1_1;
             this.pictureBox3.Location = new System.Drawing.Point(36, 186);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(129, 169);
+            this.pictureBox3.Size = new System.Drawing.Size(133, 169);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
@@ -98,7 +101,7 @@
             this.pictureBox2.Image = global::cafeteria_ReNy.Properties.Resources.Design_sem_nome1;
             this.pictureBox2.Location = new System.Drawing.Point(268, 186);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(134, 169);
+            this.pictureBox2.Size = new System.Drawing.Size(133, 169);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -138,9 +141,9 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::cafeteria_ReNy.Properties.Resources.Design_sem_nome__4_;
-            this.pictureBox5.Location = new System.Drawing.Point(969, 186);
+            this.pictureBox5.Location = new System.Drawing.Point(970, 186);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(134, 169);
+            this.pictureBox5.Size = new System.Drawing.Size(133, 169);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 9;
             this.pictureBox5.TabStop = false;
@@ -161,7 +164,7 @@
             this.pictureBox6.Image = global::cafeteria_ReNy.Properties.Resources.Design_sem_nome__5_;
             this.pictureBox6.Location = new System.Drawing.Point(1195, 186);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(134, 169);
+            this.pictureBox6.Size = new System.Drawing.Size(133, 169);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 11;
             this.pictureBox6.TabStop = false;
@@ -198,6 +201,27 @@
             this.label6.TabIndex = 14;
             this.label6.Text = "Frappuccino de chocolate";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label7.Location = new System.Drawing.Point(265, 629);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(140, 16);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Frappuccino de baunilha";
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::cafeteria_ReNy.Properties.Resources.Captura_de_tela_2024_09_26_152431;
+            this.pictureBox8.Location = new System.Drawing.Point(268, 457);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(133, 169);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 16;
+            this.pictureBox8.TabStop = false;
+            // 
             // Form7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -205,6 +229,8 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(174)))), ((int)(((byte)(153)))));
             this.BackgroundImage = global::cafeteria_ReNy.Properties.Resources.Cafeteria_RenY__2_7;
             this.ClientSize = new System.Drawing.Size(1392, 908);
+            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.label5);
@@ -228,6 +254,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -248,5 +275,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox pictureBox8;
     }
 }
