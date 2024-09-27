@@ -425,5 +425,44 @@
   <ItemGroup>
     <None Include="Resources\Captura de tela 2024-09-27 1425062.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-09-27 155431.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-09-27 155906.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-09-27 161155.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-09-27 161452.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-09-27 162913.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-09-27 163248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-09-27 163747.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-09-27 171308.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-09-27 1713081.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-09-27 1713082.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-09-27 172612.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-09-27 173856.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
