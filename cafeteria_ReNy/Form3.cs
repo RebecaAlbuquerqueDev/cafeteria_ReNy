@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace cafeteria_ReNy
 {
@@ -35,7 +36,20 @@ namespace cafeteria_ReNy
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Nome: " + txbNome);
+            MessageBox.Show(txbNome.Text + 
+                "\n" + textBox2.Text + 
+                "\n"+ textBox3.Text + 
+                "\n" + textBox4.Text + 
+                "\n" + textBox5.Text + 
+                "\n"+comboBox1.Text +
+                "\n" + textBox6.Text+ 
+                "\n"+ textBox9.Text+
+                "\n"+ textBox7.Text+
+                "\n"+ textBox8.Text );
+            Form3 frm = new Form3();
+            this.Visible = false;
+            frm.ShowDialog();
+            this.Visible = true;
         }
     }
 }
