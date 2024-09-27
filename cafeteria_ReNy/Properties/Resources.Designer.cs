@@ -523,6 +523,16 @@ namespace cafeteria_ReNy.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_tela_2024_09_27_135520 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de tela 2024-09-27 135520", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cq5dam_web_600_600 {
             get {
                 object obj = ResourceManager.GetObject("cq5dam.web.600.600", resourceCulture);
