@@ -63,6 +63,7 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -270,7 +271,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::cafeteria_ReNy.Properties.Resources.Design_sem_nome__7_;
+            this.pictureBox7.Image = global::cafeteria_ReNy.Properties.Resources.Captura_de_tela_2024_10_02_143534;
             this.pictureBox7.Location = new System.Drawing.Point(630, 182);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(187, 242);
@@ -314,7 +315,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::cafeteria_ReNy.Properties.Resources.Design_sem_nome__9_;
+            this.pictureBox2.Image = global::cafeteria_ReNy.Properties.Resources.Captura_de_tela_2024_10_02_144717;
             this.pictureBox2.Location = new System.Drawing.Point(203, 528);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
@@ -325,7 +326,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::cafeteria_ReNy.Properties.Resources.Cafeteria_RenY__5_;
+            this.pictureBox1.Image = global::cafeteria_ReNy.Properties.Resources.Captura_de_tela_2024_10_02_144225;
             this.pictureBox1.Location = new System.Drawing.Point(203, 181);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
@@ -335,6 +336,17 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // button1
+            // 
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(1155, 850);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "Voltar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
@@ -342,6 +354,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(174)))), ((int)(((byte)(153)))));
             this.BackgroundImage = global::cafeteria_ReNy.Properties.Resources.Cafeteria_RenY__2_4;
             this.ClientSize = new System.Drawing.Size(1393, 908);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -414,5 +427,6 @@
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button1;
     }
 }

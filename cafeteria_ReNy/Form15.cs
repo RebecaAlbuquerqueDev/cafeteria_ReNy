@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace cafeteria_ReNy
 {
-    public partial class Form6 : Form
+    public partial class Form15 : Form
     {
-        public Form6()
+        public Form15()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

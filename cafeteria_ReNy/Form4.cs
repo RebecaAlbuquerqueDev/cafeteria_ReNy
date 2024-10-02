@@ -38,5 +38,10 @@ namespace cafeteria_ReNy
             tela8.ShowDialog();
             this.Visible = true;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
