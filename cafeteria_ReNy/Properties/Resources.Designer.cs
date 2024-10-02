@@ -563,6 +563,16 @@ namespace cafeteria_ReNy.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_tela_2024_09_27_1423293 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de tela 2024-09-27 1423293", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura_de_tela_2024_09_27_142506 {
             get {
                 object obj = ResourceManager.GetObject("Captura de tela 2024-09-27 142506", resourceCulture);
@@ -576,6 +586,16 @@ namespace cafeteria_ReNy.Properties {
         internal static System.Drawing.Bitmap Captura_de_tela_2024_09_27_1425061 {
             get {
                 object obj = ResourceManager.GetObject("Captura de tela 2024-09-27 1425061", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_tela_2024_09_27_14250610 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de tela 2024-09-27 14250610", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -643,6 +663,26 @@ namespace cafeteria_ReNy.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_tela_2024_09_27_1425068 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de tela 2024-09-27 1425068", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_tela_2024_09_27_1425069 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de tela 2024-09-27 1425069", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura_de_tela_2024_09_27_142842 {
             get {
                 object obj = ResourceManager.GetObject("Captura de tela 2024-09-27 142842", resourceCulture);
@@ -683,9 +723,29 @@ namespace cafeteria_ReNy.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_tela_2024_09_27_1559061 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de tela 2024-09-27 1559061", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura_de_tela_2024_09_27_161155 {
             get {
                 object obj = ResourceManager.GetObject("Captura de tela 2024-09-27 161155", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_tela_2024_09_27_1611551 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de tela 2024-09-27 1611551", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -703,9 +763,29 @@ namespace cafeteria_ReNy.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_tela_2024_09_27_1614521 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de tela 2024-09-27 1614521", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura_de_tela_2024_09_27_162913 {
             get {
                 object obj = ResourceManager.GetObject("Captura de tela 2024-09-27 162913", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_tela_2024_09_27_1629131 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de tela 2024-09-27 1629131", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
