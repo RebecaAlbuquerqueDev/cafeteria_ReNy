@@ -38,7 +38,6 @@
             this.listBoxCarrinho.Name = "listBoxCarrinho";
             this.listBoxCarrinho.Size = new System.Drawing.Size(120, 381);
             this.listBoxCarrinho.TabIndex = 0;
-            this.listBoxCarrinho.SelectedIndexChanged += new System.EventHandler(this.listBoxCarrinho_SelectedIndexChanged);
             // 
             // Form10
             // 
@@ -49,7 +48,6 @@
             this.Controls.Add(this.listBoxCarrinho);
             this.Name = "Form10";
             this.Text = "Form10";
-            this.Load += new System.EventHandler(this.Form10_Load);
             this.ResumeLayout(false);
 
         }

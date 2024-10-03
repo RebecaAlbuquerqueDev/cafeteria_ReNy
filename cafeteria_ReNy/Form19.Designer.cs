@@ -343,7 +343,6 @@
             this.numericUpDown5.Name = "numericUpDown5";
             this.numericUpDown5.Size = new System.Drawing.Size(108, 21);
             this.numericUpDown5.TabIndex = 154;
-            this.numericUpDown5.ValueChanged += new System.EventHandler(this.numericUpDown5_ValueChanged);
             // 
             // checkedListBox1
             // 

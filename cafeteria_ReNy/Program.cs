@@ -18,14 +18,5 @@ namespace cafeteria_ReNy
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new cafeteria());
         }
-        public partial class TelaCarrinho : Form
-        {
-            public void AdicionarItem(string item)
-            {
-
-
-                listBoxCarrinho.Items.Add(item);
-            }
-        }
     }
 }
