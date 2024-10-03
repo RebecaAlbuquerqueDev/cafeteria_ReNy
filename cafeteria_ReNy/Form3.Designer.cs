@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txbsenha2 = new System.Windows.Forms.TextBox();
+            this.txbsenha1 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -63,8 +63,8 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(226)))));
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.textBox5);
-            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.txbsenha2);
+            this.panel1.Controls.Add(this.txbsenha1);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.textBox3);
             this.panel1.Controls.Add(this.label3);
@@ -86,19 +86,21 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "Confirme a senha:";
             // 
-            // textBox5
+            // txbsenha2
             // 
-            this.textBox5.Location = new System.Drawing.Point(62, 345);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(273, 20);
-            this.textBox5.TabIndex = 8;
+            this.txbsenha2.Location = new System.Drawing.Point(62, 345);
+            this.txbsenha2.Name = "txbsenha2";
+            this.txbsenha2.PasswordChar = '*';
+            this.txbsenha2.Size = new System.Drawing.Size(273, 20);
+            this.txbsenha2.TabIndex = 8;
             // 
-            // textBox4
+            // txbsenha1
             // 
-            this.textBox4.Location = new System.Drawing.Point(62, 275);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(274, 20);
-            this.textBox4.TabIndex = 7;
+            this.txbsenha1.Location = new System.Drawing.Point(62, 275);
+            this.txbsenha1.Name = "txbsenha1";
+            this.txbsenha1.PasswordChar = '*';
+            this.txbsenha1.Size = new System.Drawing.Size(274, 20);
+            this.txbsenha1.TabIndex = 7;
             // 
             // label4
             // 
@@ -366,8 +368,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txbsenha2;
+        private System.Windows.Forms.TextBox txbsenha1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;

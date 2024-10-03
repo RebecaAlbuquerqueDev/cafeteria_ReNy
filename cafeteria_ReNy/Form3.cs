@@ -24,13 +24,25 @@ namespace cafeteria_ReNy
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-            this.Visible = false;
-            Form4 tela4 = new Form4();
-            tela4.ShowDialog();
-            this.Visible = true;
 
-            MessageBox.Show(txbNome + " Sua conta foi criada com sucesso!");
+        {
+            string senha1 = txbsenha1.Text;
+            string senha2 = txbsenha2.Text;
+            if (senha1 == senha2)
+            {
+
+                MessageBox.Show(txbNome.Text + " Sua conta foi criada com sucesso!");
+                this.Visible = false;
+                Form4 tela4 = new Form4();
+                tela4.ShowDialog();
+                this.Visible = true;
+            }
+            else
+            {
+                MessageBox.Show( "Erro: As senhas não coincidem!");
+            }
+             
+            
         }
 
 
@@ -39,17 +51,14 @@ namespace cafeteria_ReNy
             MessageBox.Show(txbNome.Text + 
                 "\n" + textBox2.Text + 
                 "\n"+ textBox3.Text + 
-                "\n" + textBox4.Text + 
-                "\n" + textBox5.Text + 
+                "\n" + txbsenha1.Text + 
+                "\n" + txbsenha2.Text + 
                 "\n"+comboBox1.Text +
                 "\n" + textBox6.Text+ 
                 "\n"+ textBox9.Text+
                 "\n"+ textBox7.Text+
                 "\n"+ textBox8.Text );
-            Form3 frm = new Form3();
-            this.Visible = false;
-            frm.ShowDialog();
-            this.Visible = true;
+           
         }
     }
 }
