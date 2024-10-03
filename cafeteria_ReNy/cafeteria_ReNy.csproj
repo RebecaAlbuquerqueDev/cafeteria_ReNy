@@ -137,6 +137,12 @@
     <Compile Include="Form22.Designer.cs">
       <DependentUpon>Form22.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form23.Designer.cs">
+      <DependentUpon>Form23.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -226,6 +232,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form22.resx">
       <DependentUpon>Form22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form23.resx">
+      <DependentUpon>Form23.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
@@ -643,6 +652,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Captura de tela 2024-09-27 1637471.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-09-27 14250614.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-10-03 142352.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-10-03 142950.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-10-03 143023.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-10-03 143051.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-10-03 143120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-10-03 143201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-10-03 1432011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-10-03 143306.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-10-03 144211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-09-27 14250615.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-10-03 1423521.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
