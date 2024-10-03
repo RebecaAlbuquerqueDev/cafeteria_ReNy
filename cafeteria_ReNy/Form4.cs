@@ -43,5 +43,13 @@ namespace cafeteria_ReNy
         {
             this.Close();
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Form22 tela22 = new Form22();
+            tela22.ShowDialog();
+            this.Visible = true;
+        }
     }
 }

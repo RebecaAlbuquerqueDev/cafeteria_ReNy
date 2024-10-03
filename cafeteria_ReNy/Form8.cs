@@ -69,5 +69,21 @@ namespace cafeteria_ReNy
             tela19.ShowDialog();
             this.Visible = true;
         }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Form20 tela20 = new Form20();
+            tela20.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Form21 tela21 = new Form21();
+            tela21.ShowDialog();
+            this.Visible = true;
+        }
     }
 }

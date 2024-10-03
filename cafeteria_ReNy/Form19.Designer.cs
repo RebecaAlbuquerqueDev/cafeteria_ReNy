@@ -125,7 +125,7 @@
             // numericUpDown13
             // 
             this.numericUpDown13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown13.Location = new System.Drawing.Point(795, 540);
+            this.numericUpDown13.Location = new System.Drawing.Point(848, 542);
             this.numericUpDown13.Name = "numericUpDown13";
             this.numericUpDown13.Size = new System.Drawing.Size(108, 21);
             this.numericUpDown13.TabIndex = 177;
@@ -133,7 +133,7 @@
             // numericUpDown12
             // 
             this.numericUpDown12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown12.Location = new System.Drawing.Point(795, 513);
+            this.numericUpDown12.Location = new System.Drawing.Point(848, 515);
             this.numericUpDown12.Name = "numericUpDown12";
             this.numericUpDown12.Size = new System.Drawing.Size(108, 21);
             this.numericUpDown12.TabIndex = 176;
@@ -141,7 +141,7 @@
             // numericUpDown11
             // 
             this.numericUpDown11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown11.Location = new System.Drawing.Point(795, 486);
+            this.numericUpDown11.Location = new System.Drawing.Point(848, 488);
             this.numericUpDown11.Name = "numericUpDown11";
             this.numericUpDown11.Size = new System.Drawing.Size(108, 21);
             this.numericUpDown11.TabIndex = 175;
@@ -149,7 +149,7 @@
             // numericUpDown10
             // 
             this.numericUpDown10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown10.Location = new System.Drawing.Point(795, 459);
+            this.numericUpDown10.Location = new System.Drawing.Point(848, 461);
             this.numericUpDown10.Name = "numericUpDown10";
             this.numericUpDown10.Size = new System.Drawing.Size(108, 21);
             this.numericUpDown10.TabIndex = 174;
@@ -157,7 +157,7 @@
             // numericUpDown9
             // 
             this.numericUpDown9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown9.Location = new System.Drawing.Point(795, 432);
+            this.numericUpDown9.Location = new System.Drawing.Point(848, 434);
             this.numericUpDown9.Name = "numericUpDown9";
             this.numericUpDown9.Size = new System.Drawing.Size(108, 21);
             this.numericUpDown9.TabIndex = 173;
@@ -165,7 +165,7 @@
             // numericUpDown8
             // 
             this.numericUpDown8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown8.Location = new System.Drawing.Point(795, 405);
+            this.numericUpDown8.Location = new System.Drawing.Point(848, 407);
             this.numericUpDown8.Name = "numericUpDown8";
             this.numericUpDown8.Size = new System.Drawing.Size(108, 21);
             this.numericUpDown8.TabIndex = 172;
@@ -173,7 +173,7 @@
             // numericUpDown7
             // 
             this.numericUpDown7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown7.Location = new System.Drawing.Point(795, 378);
+            this.numericUpDown7.Location = new System.Drawing.Point(848, 380);
             this.numericUpDown7.Name = "numericUpDown7";
             this.numericUpDown7.Size = new System.Drawing.Size(108, 21);
             this.numericUpDown7.TabIndex = 171;
@@ -181,7 +181,7 @@
             // numericUpDown6
             // 
             this.numericUpDown6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown6.Location = new System.Drawing.Point(795, 351);
+            this.numericUpDown6.Location = new System.Drawing.Point(848, 353);
             this.numericUpDown6.Name = "numericUpDown6";
             this.numericUpDown6.Size = new System.Drawing.Size(108, 21);
             this.numericUpDown6.TabIndex = 170;
@@ -189,7 +189,7 @@
             // numericUpDown4
             // 
             this.numericUpDown4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown4.Location = new System.Drawing.Point(795, 324);
+            this.numericUpDown4.Location = new System.Drawing.Point(848, 326);
             this.numericUpDown4.Name = "numericUpDown4";
             this.numericUpDown4.Size = new System.Drawing.Size(108, 21);
             this.numericUpDown4.TabIndex = 169;
@@ -197,7 +197,7 @@
             // numericUpDown3
             // 
             this.numericUpDown3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown3.Location = new System.Drawing.Point(795, 297);
+            this.numericUpDown3.Location = new System.Drawing.Point(848, 299);
             this.numericUpDown3.Name = "numericUpDown3";
             this.numericUpDown3.Size = new System.Drawing.Size(108, 21);
             this.numericUpDown3.TabIndex = 168;
@@ -205,7 +205,7 @@
             // numericUpDown2
             // 
             this.numericUpDown2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown2.Location = new System.Drawing.Point(795, 270);
+            this.numericUpDown2.Location = new System.Drawing.Point(848, 272);
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(108, 21);
             this.numericUpDown2.TabIndex = 167;
@@ -213,7 +213,7 @@
             // numericUpDown1
             // 
             this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown1.Location = new System.Drawing.Point(795, 243);
+            this.numericUpDown1.Location = new System.Drawing.Point(848, 245);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(108, 21);
             this.numericUpDown1.TabIndex = 166;
@@ -339,7 +339,7 @@
             // numericUpDown5
             // 
             this.numericUpDown5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown5.Location = new System.Drawing.Point(795, 216);
+            this.numericUpDown5.Location = new System.Drawing.Point(848, 218);
             this.numericUpDown5.Name = "numericUpDown5";
             this.numericUpDown5.Size = new System.Drawing.Size(108, 21);
             this.numericUpDown5.TabIndex = 154;
@@ -349,24 +349,34 @@
             this.checkedListBox1.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Items.AddRange(new object[] {
-            "Quiche Lorraine: Clássica com bacon e queijo.",
-            "Quiche de Espinafre e Ricota",
-            "Quiche de Alho-Poró",
-            "Quiche de Frango com Catupiry",
-            "Quiche de Cogumelos",
-            "Quiche de Tomate Seco com Queijo de Cabra",
-            "Quiche de Salmão Defumado com Cream Cheese",
-            "Quiche de Brócolis com Queijo",
-            "Quiche de Calabresa com Queijo",
-            "Quiche de Palmito",
-            "Quiche de Abobrinha com Hortelã",
-            "Quiche de Quatro Queijos",
-            "Quiche de Atum com Cebola",
-            "Quiche de Milho com Queijo",
-            "Quiche de Carne Seca com Requeijão "});
-            this.checkedListBox1.Location = new System.Drawing.Point(428, 216);
+            "Quiche Lorraine.................................................................." +
+                "...............",
+            "Quiche de Espinafre e Ricota....................................................." +
+                ".........",
+            "Quiche de Frango com Catupiry...................................................." +
+                ".......",
+            "Quiche de Cogumelos.............................................................." +
+                ".................",
+            "Quiche de Salmão Defumado com Cream Cheese................................",
+            "Quiche de Brócolis com Queijo...................................................." +
+                "...........",
+            "Quiche de Calabresa com Queijo..................................................." +
+                "..........",
+            "Quiche de Palmito................................................................" +
+                ".......................",
+            "Quiche de Abobrinha.............................................................." +
+                "...................",
+            "Quiche de Quatro Queijos........................................................." +
+                "................",
+            "Quiche de Atum com Cebola........................................................" +
+                "...............",
+            "Quiche de Milho com Queijo......................................................." +
+                "...............",
+            "Quiche de Carne Seca com Requeijão..............................................." +
+                "..................."});
+            this.checkedListBox1.Location = new System.Drawing.Point(403, 218);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(361, 355);
+            this.checkedListBox1.Size = new System.Drawing.Size(439, 355);
             this.checkedListBox1.TabIndex = 153;
             // 
             // label5
@@ -385,7 +395,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label4.Location = new System.Drawing.Point(791, 168);
+            this.label4.Location = new System.Drawing.Point(844, 168);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(114, 23);
             this.label4.TabIndex = 151;

@@ -803,9 +803,29 @@ namespace cafeteria_ReNy.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_tela_2024_09_27_1632481 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de tela 2024-09-27 1632481", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura_de_tela_2024_09_27_163747 {
             get {
                 object obj = ResourceManager.GetObject("Captura de tela 2024-09-27 163747", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_tela_2024_09_27_1637471 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de tela 2024-09-27 1637471", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
