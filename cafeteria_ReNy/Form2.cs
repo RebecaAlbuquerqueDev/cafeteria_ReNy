@@ -24,12 +24,38 @@ namespace cafeteria_ReNy
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
-            Form4 tela4 = new Form4();
-            tela4.ShowDialog();
-            this.Visible = true;
+            string email = txbemail.Text;
+            string senha = mtbsenha.Text;
+
+            if (email == "rebeca@email.com" && senha == "rebeca123")
+            {
+                MessageBox.Show("Login efetuado com sucesso!");
+                this.Visible = false;
+                Form4 tela4 = new Form4();
+                tela4.ShowDialog();
+                this.Visible = true;
+            }
+            else
+            {
+                MessageBox.Show("Email ou senha incorretos.");
 
 
+
+                this.Visible = false;
+                Form2 tela2 = new Form2();
+                tela2.ShowDialog();
+                this.Visible = true;
+            }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void mtbsenha_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            mtbsenha.PasswordChar = '*';
         }
     }
 }

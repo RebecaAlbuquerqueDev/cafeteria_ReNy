@@ -29,23 +29,24 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txbemail = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.mtbsenha = new System.Windows.Forms.MaskedTextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnentrar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txbemail
             // 
-            this.textBox1.Location = new System.Drawing.Point(65, 155);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(349, 20);
-            this.textBox1.TabIndex = 0;
+            this.txbemail.Location = new System.Drawing.Point(65, 155);
+            this.txbemail.Multiline = true;
+            this.txbemail.Name = "txbemail";
+            this.txbemail.Size = new System.Drawing.Size(349, 20);
+            this.txbemail.TabIndex = 0;
             // 
             // label1
             // 
@@ -61,22 +62,36 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(226)))));
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.mtbsenha);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.btnentrar);
+            this.panel1.Controls.Add(this.txbemail);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(546, 270);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(470, 402);
             this.panel1.TabIndex = 2;
             // 
-            // textBox2
+            // button1
             // 
-            this.textBox2.Location = new System.Drawing.Point(65, 252);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(349, 20);
-            this.textBox2.TabIndex = 5;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(284, 354);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Voltar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // mtbsenha
+            // 
+            this.mtbsenha.Location = new System.Drawing.Point(65, 261);
+            this.mtbsenha.Name = "mtbsenha";
+            this.mtbsenha.PasswordChar = '*';
+            this.mtbsenha.Size = new System.Drawing.Size(349, 20);
+            this.mtbsenha.TabIndex = 6;
+            this.mtbsenha.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtbsenha_MaskInputRejected);
             // 
             // label2
             // 
@@ -88,16 +103,16 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Senha:";
             // 
-            // button1
+            // btnentrar
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(365, 351);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 26);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Entrar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnentrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnentrar.Location = new System.Drawing.Point(365, 351);
+            this.btnentrar.Name = "btnentrar";
+            this.btnentrar.Size = new System.Drawing.Size(75, 26);
+            this.btnentrar.TabIndex = 3;
+            this.btnentrar.Text = "Entrar";
+            this.btnentrar.UseVisualStyleBackColor = true;
+            this.btnentrar.Click += new System.EventHandler(this.button1_Click);
             // 
             // label3
             // 
@@ -132,12 +147,14 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txbemail;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button btnentrar;
+        private System.Windows.Forms.TextBox txbsenha;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.MaskedTextBox mtbsenha;
+        private System.Windows.Forms.Button button1;
     }
 }
