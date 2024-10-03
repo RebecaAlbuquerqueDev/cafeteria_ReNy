@@ -28,7 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.listBoxCarrinho = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
+            // 
+            // listBoxCarrinho
+            // 
+            this.listBoxCarrinho.FormattingEnabled = true;
+            this.listBoxCarrinho.Location = new System.Drawing.Point(43, 127);
+            this.listBoxCarrinho.Name = "listBoxCarrinho";
+            this.listBoxCarrinho.Size = new System.Drawing.Size(120, 381);
+            this.listBoxCarrinho.TabIndex = 0;
+            this.listBoxCarrinho.SelectedIndexChanged += new System.EventHandler(this.listBoxCarrinho_SelectedIndexChanged);
             // 
             // Form10
             // 
@@ -36,12 +46,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::cafeteria_ReNy.Properties.Resources.Captura_de_tela_2024_09_27_1425062;
             this.ClientSize = new System.Drawing.Size(1223, 796);
+            this.Controls.Add(this.listBoxCarrinho);
             this.Name = "Form10";
             this.Text = "Form10";
+            this.Load += new System.EventHandler(this.Form10_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.ListBox listBoxCarrinho;
     }
 }

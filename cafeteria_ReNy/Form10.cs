@@ -16,5 +16,15 @@ namespace cafeteria_ReNy
         {
             InitializeComponent();
         }
+
+        private void listBoxCarrinho_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form10_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
