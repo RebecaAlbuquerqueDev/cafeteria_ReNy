@@ -28,7 +28,7 @@ namespace cafeteria_ReNy
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            Form7 tela7 = new Form7();
+            CafeteriaReny7 tela7 = new CafeteriaReny7();
             tela7.ShowDialog();
             this.Visible = true;
 

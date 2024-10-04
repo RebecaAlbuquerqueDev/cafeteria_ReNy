@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace cafeteria_ReNy
 {
-    public partial class Form7 : Form
+    public partial class CafeteriaReny7 : Form
     {
-        public Form7()
+        public CafeteriaReny7()
         {
             InitializeComponent();
         }

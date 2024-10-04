@@ -1,6 +1,6 @@
 ﻿namespace cafeteria_ReNy
 {
-    partial class Form7
+    partial class CafeteriaReny7
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CafeteriaReny7));
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
@@ -395,7 +396,7 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Form7
+            // CafeteriaReny7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -434,8 +435,9 @@
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.pictureBox12);
-            this.Name = "Form7";
-            this.Text = "Form7";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "CafeteriaReny7";
+            this.Text = "CafeteriaReNy";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();

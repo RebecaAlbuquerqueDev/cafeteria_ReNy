@@ -49,15 +49,15 @@ namespace cafeteria_ReNy
         private void button2_Click(object sender, EventArgs e)
         {
             MessageBox.Show(txbNome.Text + 
-                "\n" + textBox2.Text + 
-                "\n"+ textBox3.Text + 
+                "\n" + mtbcpf.Text + 
+                "\n"+ txbemail.Text + 
                 "\n" + txbsenha1.Text + 
                 "\n" + txbsenha2.Text + 
-                "\n"+comboBox1.Text +
-                "\n" + textBox6.Text+ 
-                "\n"+ textBox9.Text+
-                "\n"+ textBox7.Text+
-                "\n"+ textBox8.Text );
+                "\n"+cbestado.Text +
+                "\n" + txbcep.Text+ 
+                "\n"+ txbbairro.Text+
+                "\n"+ txbrua.Text+
+                "\n"+ txbcasa.Text );
            
         }
     }

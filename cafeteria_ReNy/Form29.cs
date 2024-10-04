@@ -16,5 +16,19 @@ namespace cafeteria_ReNy
         {
             InitializeComponent();
         }
+
+        private void btnok_Click(object sender, EventArgs e)
+        {
+            btnok.Visible = false;  
+            cbforma.Visible = false;
+            lblforma.Visible = false;
+            lblmensagem.Visible = true;
+            
+        }
+
+        private void Form29_Load(object sender, EventArgs e)
+        {
+            lblmensagem.Visible = false;
+        }
     }
 }
