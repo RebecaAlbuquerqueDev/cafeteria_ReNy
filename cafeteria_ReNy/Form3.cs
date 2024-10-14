@@ -1,4 +1,5 @@
-﻿using System;
+﻿using cafeteria_ReNy.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,6 +27,14 @@ namespace cafeteria_ReNy
         private void button1_Click(object sender, EventArgs e)
 
         {
+            string NomeCompleto = txbNome.Text;
+            int CPF = int.Parse(mtbcpf.Text);
+            string Email = txbemail.Text;
+
+            Clientes clientes = new Clientes(NomeCompleto, CPF, Email);
+
+            Clientes clientes = new Clientes();
+
             string senha1 = txbsenha1.Text;
             string senha2 = txbsenha2.Text;
             if (senha1 == senha2)

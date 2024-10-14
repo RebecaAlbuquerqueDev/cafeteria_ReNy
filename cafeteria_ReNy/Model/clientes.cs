@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace cafeteria_ReNy.Model
 {
-    internal class clientes
+    internal class Clientes
 
     { 
         public int Codcliente { get; set; }
@@ -20,7 +22,7 @@ namespace cafeteria_ReNy.Model
         public string  Rua { get; set; }
         public int Ncasa { get; set; }
 
-        public clientes (int codcliente, string nomecompleto, float cpf, string email, string senha, string estado,
+        public Clientes (int codcliente, string nomecompleto, float cpf, string email, string senha, string estado,
             int cep, string bairro, string rua, int ncasa)
         {
             Codcliente = codcliente;
@@ -34,8 +36,10 @@ namespace cafeteria_ReNy.Model
             Rua = rua;
             Ncasa = ncasa;
         }
+      
 
 
 
     }
+   
 }

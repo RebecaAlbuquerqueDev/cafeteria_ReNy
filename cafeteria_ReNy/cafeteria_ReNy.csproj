@@ -221,7 +221,8 @@
     <Compile Include="Form9.Designer.cs">
       <DependentUpon>Form9.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\clientes.cs" />
+    <Compile Include="Model\Clientes.cs" />
+    <Compile Include="Model\ClientesDAO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
