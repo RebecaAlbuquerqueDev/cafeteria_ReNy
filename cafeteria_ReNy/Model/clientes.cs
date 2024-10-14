@@ -13,7 +13,7 @@ namespace cafeteria_ReNy.Model
     { 
         public int Codcliente { get; set; }
         public string NomeCompleto { get; set; }
-        public float CPF { get; set; }
+        public dynamic  CPF { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
         public string Estado { get; set; }
@@ -22,11 +22,12 @@ namespace cafeteria_ReNy.Model
         public string  Rua { get; set; }
         public int Ncasa { get; set; }
 
-        public Clientes (int codcliente, string nomecompleto, float cpf, string email, string senha, string estado,
-            int cep, string bairro, string rua, int ncasa)
+       
+        
+
+        public Clientes(string nomeCompleto, dynamic cpf, string email, string senha, string estado, int cep, string bairro, string rua, int ncasa)
         {
-            Codcliente = codcliente;
-            NomeCompleto = nomecompleto;
+            NomeCompleto = nomeCompleto;
             CPF = cpf;
             Email = email;
             Senha = senha;
@@ -36,10 +37,6 @@ namespace cafeteria_ReNy.Model
             Rua = rua;
             Ncasa = ncasa;
         }
-      
-
-
-
     }
    
 }

@@ -28,12 +28,17 @@ namespace cafeteria_ReNy
 
         {
             string NomeCompleto = txbNome.Text;
-            int CPF = int.Parse(mtbcpf.Text);
+            //float CPF = Convert.ToInt32(CPF);
+            dynamic  CPF =  mtbcpf.Text;
             string Email = txbemail.Text;
+            string Senha = txbsenha1.Text;
+            string Estado = cbestado.Text;
+            int CEP = int.Parse (txbcep.Text);
+            string Bairro = txbbairro.Text;
+            string Rua = txbemail.Text;
+            int Ncasa = int.Parse(txbcasa.Text);
 
-            Clientes clientes = new Clientes(NomeCompleto, CPF, Email);
-
-            Clientes clientes = new Clientes();
+            Clientes clientes = new Clientes(NomeCompleto , CPF, Email, Senha, Estado , CEP , Bairro ,Rua , Ncasa );
 
             string senha1 = txbsenha1.Text;
             string senha2 = txbsenha2.Text;
