@@ -24,7 +24,7 @@ namespace cafeteria_ReNy.Model
             {
                 Command.Connection = Connect.ReturnConnection();
                 Command.CommandText = @"INSERT INTO clientes VALUES
-          (NomeCompleto, @CPF, @Email, @Senha, @Estado, @CEP, @Bairro, @Rua, @Ncasa )";
+          (@NomeCompleto, @CPF, @Email, @Senha, @Estado, @CEP, @Bairro, @Rua, @Ncasa )";
 
                 Command.Parameters.AddWithValue("@NomeCompleto", clientes.NomeCompleto);
                 Command.Parameters.AddWithValue("@CPF", clientes.CPF);
@@ -43,7 +43,7 @@ namespace cafeteria_ReNy.Model
                 }
                 catch (Exception err)
                 {
-                    throw new Exception("Erro: Problemas ao inserir usuário");
+                    throw new Exception("Erro: Problemas ao inserir usuário " + err.Message );
                 }
                 finally
                 {

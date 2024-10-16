@@ -28,7 +28,6 @@ namespace cafeteria_ReNy
 
         {
             string NomeCompleto = txbNome.Text;
-            //float CPF = Convert.ToInt32(CPF);
             dynamic  CPF =  mtbcpf.Text;
             string Email = txbemail.Text;
             string Senha = txbsenha1.Text;
@@ -39,6 +38,9 @@ namespace cafeteria_ReNy
             int Ncasa = int.Parse(txbcasa.Text);
 
             Clientes clientes = new Clientes(NomeCompleto , CPF, Email, Senha, Estado , CEP , Bairro ,Rua , Ncasa );
+            ClientesDAO clientesDAO = new ClientesDAO();
+
+            clientesDAO.Insert(clientes);
 
             string senha1 = txbsenha1.Text;
             string senha2 = txbsenha2.Text;

@@ -19,7 +19,7 @@ namespace cafeteria_ReNy
 
         public Connection ()
         {
-            string stringConnection = @"Data Sourse = " + Server
+            string stringConnection = @"Data Source = " + Server
                 + "; Initial Catalog = " + DataBase
                 + "; User Id = " + Username
                 + "; Password = " + Password
