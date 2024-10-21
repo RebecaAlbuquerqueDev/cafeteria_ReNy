@@ -1333,6 +1333,16 @@ namespace cafeteria_ReNy.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Design_sem_nome__2_10 {
+            get {
+                object obj = ResourceManager.GetObject("Design sem nome (2)10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Design_sem_nome__2_2 {
             get {
                 object obj = ResourceManager.GetObject("Design sem nome (2)2", resourceCulture);
@@ -1346,6 +1356,66 @@ namespace cafeteria_ReNy.Properties {
         internal static System.Drawing.Bitmap Design_sem_nome__2_3 {
             get {
                 object obj = ResourceManager.GetObject("Design sem nome (2)3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Design_sem_nome__2_4 {
+            get {
+                object obj = ResourceManager.GetObject("Design sem nome (2)4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Design_sem_nome__2_5 {
+            get {
+                object obj = ResourceManager.GetObject("Design sem nome (2)5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Design_sem_nome__2_6 {
+            get {
+                object obj = ResourceManager.GetObject("Design sem nome (2)6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Design_sem_nome__2_7 {
+            get {
+                object obj = ResourceManager.GetObject("Design sem nome (2)7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Design_sem_nome__2_8 {
+            get {
+                object obj = ResourceManager.GetObject("Design sem nome (2)8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Design_sem_nome__2_9 {
+            get {
+                object obj = ResourceManager.GetObject("Design sem nome (2)9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

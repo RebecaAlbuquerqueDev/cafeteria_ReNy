@@ -390,7 +390,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::cafeteria_ReNy.Properties.Resources.Captura_de_tela_2024_09_27_14250610;
+            this.BackgroundImage = global::cafeteria_ReNy.Properties.Resources.Design_sem_nome__2_9;
             this.ClientSize = new System.Drawing.Size(1221, 796);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);

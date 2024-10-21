@@ -401,7 +401,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(174)))), ((int)(((byte)(153)))));
-            this.BackgroundImage = global::cafeteria_ReNy.Properties.Resources.Cafeteria_RenY__2_7;
+            this.BackgroundImage = global::cafeteria_ReNy.Properties.Resources.Design_sem_nome__2_6;
             this.ClientSize = new System.Drawing.Size(1392, 908);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
