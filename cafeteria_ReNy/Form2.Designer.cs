@@ -32,9 +32,9 @@
             this.txbemail = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnvoltar = new System.Windows.Forms.Button();
             this.mtbsenha = new System.Windows.Forms.MaskedTextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnvoltar = new System.Windows.Forms.Button();
             this.btnentrar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -73,21 +73,6 @@
             this.panel1.Size = new System.Drawing.Size(680, 501);
             this.panel1.TabIndex = 2;
             // 
-            // btnvoltar
-            // 
-            this.btnvoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.btnvoltar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.btnvoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnvoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnvoltar.ForeColor = System.Drawing.Color.White;
-            this.btnvoltar.Location = new System.Drawing.Point(1545, 994);
-            this.btnvoltar.Name = "btnvoltar";
-            this.btnvoltar.Size = new System.Drawing.Size(75, 37);
-            this.btnvoltar.TabIndex = 7;
-            this.btnvoltar.Text = "Voltar";
-            this.btnvoltar.UseVisualStyleBackColor = false;
-            this.btnvoltar.Click += new System.EventHandler(this.button1_Click_1);
-            // 
             // mtbsenha
             // 
             this.mtbsenha.Location = new System.Drawing.Point(148, 326);
@@ -108,6 +93,21 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Senha:";
             // 
+            // btnvoltar
+            // 
+            this.btnvoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.btnvoltar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.btnvoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnvoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnvoltar.ForeColor = System.Drawing.Color.White;
+            this.btnvoltar.Location = new System.Drawing.Point(1412, 945);
+            this.btnvoltar.Name = "btnvoltar";
+            this.btnvoltar.Size = new System.Drawing.Size(75, 37);
+            this.btnvoltar.TabIndex = 7;
+            this.btnvoltar.Text = "Voltar";
+            this.btnvoltar.UseVisualStyleBackColor = false;
+            this.btnvoltar.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // btnentrar
             // 
             this.btnentrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
@@ -115,7 +115,7 @@
             this.btnentrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnentrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnentrar.ForeColor = System.Drawing.Color.White;
-            this.btnentrar.Location = new System.Drawing.Point(1736, 994);
+            this.btnentrar.Location = new System.Drawing.Point(1602, 945);
             this.btnentrar.Name = "btnentrar";
             this.btnentrar.Size = new System.Drawing.Size(75, 37);
             this.btnentrar.TabIndex = 3;
@@ -140,8 +140,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(174)))), ((int)(((byte)(153)))));
-            this.BackgroundImage = global::cafeteria_ReNy.Properties.Resources.Design_sem_nome2;
-            this.ClientSize = new System.Drawing.Size(1924, 1058);
+            this.BackgroundImage = global::cafeteria_ReNy.Properties.Resources.Design_sem_nome__1_4;
+            this.ClientSize = new System.Drawing.Size(1891, 1058);
             this.Controls.Add(this.btnvoltar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
