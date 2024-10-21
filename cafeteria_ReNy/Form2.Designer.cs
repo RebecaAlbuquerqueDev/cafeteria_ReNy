@@ -42,7 +42,7 @@
             // 
             // txbemail
             // 
-            this.txbemail.Location = new System.Drawing.Point(65, 155);
+            this.txbemail.Location = new System.Drawing.Point(148, 199);
             this.txbemail.Multiline = true;
             this.txbemail.Name = "txbemail";
             this.txbemail.Size = new System.Drawing.Size(349, 20);
@@ -51,42 +51,46 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(51, 114);
+            this.label1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(103)))), ((int)(((byte)(47)))));
+            this.label1.Location = new System.Drawing.Point(127, 160);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 18);
+            this.label1.Size = new System.Drawing.Size(92, 31);
             this.label1.TabIndex = 1;
             this.label1.Text = "email:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(226)))));
-            this.panel1.Controls.Add(this.btnvoltar);
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
             this.panel1.Controls.Add(this.mtbsenha);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.btnentrar);
             this.panel1.Controls.Add(this.txbemail);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(546, 270);
+            this.panel1.Location = new System.Drawing.Point(642, 342);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(470, 402);
+            this.panel1.Size = new System.Drawing.Size(680, 501);
             this.panel1.TabIndex = 2;
             // 
             // btnvoltar
             // 
+            this.btnvoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.btnvoltar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.btnvoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnvoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnvoltar.Location = new System.Drawing.Point(284, 354);
+            this.btnvoltar.ForeColor = System.Drawing.Color.White;
+            this.btnvoltar.Location = new System.Drawing.Point(1545, 994);
             this.btnvoltar.Name = "btnvoltar";
-            this.btnvoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnvoltar.Size = new System.Drawing.Size(75, 37);
             this.btnvoltar.TabIndex = 7;
             this.btnvoltar.Text = "Voltar";
-            this.btnvoltar.UseVisualStyleBackColor = true;
+            this.btnvoltar.UseVisualStyleBackColor = false;
             this.btnvoltar.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // mtbsenha
             // 
-            this.mtbsenha.Location = new System.Drawing.Point(65, 261);
+            this.mtbsenha.Location = new System.Drawing.Point(148, 326);
             this.mtbsenha.Name = "mtbsenha";
             this.mtbsenha.PasswordChar = '*';
             this.mtbsenha.Size = new System.Drawing.Size(349, 20);
@@ -96,33 +100,38 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(51, 219);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(103)))), ((int)(((byte)(47)))));
+            this.label2.Location = new System.Drawing.Point(127, 288);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 18);
+            this.label2.Size = new System.Drawing.Size(106, 31);
             this.label2.TabIndex = 4;
             this.label2.Text = "Senha:";
             // 
             // btnentrar
             // 
+            this.btnentrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.btnentrar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.btnentrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnentrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnentrar.Location = new System.Drawing.Point(365, 351);
+            this.btnentrar.ForeColor = System.Drawing.Color.White;
+            this.btnentrar.Location = new System.Drawing.Point(1736, 994);
             this.btnentrar.Name = "btnentrar";
-            this.btnentrar.Size = new System.Drawing.Size(75, 26);
+            this.btnentrar.Size = new System.Drawing.Size(75, 37);
             this.btnentrar.TabIndex = 3;
             this.btnentrar.Text = "Entrar";
-            this.btnentrar.UseVisualStyleBackColor = true;
+            this.btnentrar.UseVisualStyleBackColor = false;
             this.btnentrar.Click += new System.EventHandler(this.button1_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(226)))));
-            this.label3.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(540, 225);
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("MV Boli", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(103)))), ((int)(((byte)(47)))));
+            this.label3.Location = new System.Drawing.Point(564, 255);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 31);
+            this.label3.Size = new System.Drawing.Size(148, 63);
             this.label3.TabIndex = 3;
             this.label3.Text = "Login";
             // 
@@ -131,10 +140,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(174)))), ((int)(((byte)(153)))));
-            this.BackgroundImage = global::cafeteria_ReNy.Properties.Resources.Cafeteria_RenY__2_2;
-            this.ClientSize = new System.Drawing.Size(1385, 908);
+            this.BackgroundImage = global::cafeteria_ReNy.Properties.Resources.Design_sem_nome2;
+            this.ClientSize = new System.Drawing.Size(1924, 1058);
+            this.Controls.Add(this.btnvoltar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.btnentrar);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.Text = "CafeteriaReNy.Login";
