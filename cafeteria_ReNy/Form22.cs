@@ -77,5 +77,13 @@ namespace cafeteria_ReNy
             telacc.ShowDialog();
             this.Visible = true;
         }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Formbri telabri = new Formbri();
+            telabri.ShowDialog();
+            this.Visible = true;
+        }
     }
 }

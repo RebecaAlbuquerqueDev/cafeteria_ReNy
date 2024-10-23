@@ -90,7 +90,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::cafeteria_ReNy.Properties.Resources.Design_sem_nome__14_1;
-            this.pictureBox1.Location = new System.Drawing.Point(53, 228);
+            this.pictureBox1.Location = new System.Drawing.Point(407, 273);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(266, 350);
@@ -102,7 +102,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(49, 170);
+            this.label9.Location = new System.Drawing.Point(403, 228);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(54, 23);
             this.label9.TabIndex = 16;

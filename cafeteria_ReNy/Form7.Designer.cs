@@ -341,7 +341,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(165, 276);
+            this.label13.Location = new System.Drawing.Point(538, 240);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(120, 23);
             this.label13.TabIndex = 49;

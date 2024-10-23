@@ -221,6 +221,12 @@
     <Compile Include="Form9.Designer.cs">
       <DependentUpon>Form9.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formbri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formbri.Designer.cs">
+      <DependentUpon>Formbri.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formcc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -232,6 +238,12 @@
     </Compile>
     <Compile Include="Formcombos.Designer.cs">
       <DependentUpon>Formcombos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formper.Designer.cs">
+      <DependentUpon>Formper.cs</DependentUpon>
     </Compile>
     <Compile Include="Formsalada.cs">
       <SubType>Form</SubType>
@@ -330,11 +342,17 @@
     <EmbeddedResource Include="Form9.resx">
       <DependentUpon>Form9.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formbri.resx">
+      <DependentUpon>Formbri.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formcc.resx">
       <DependentUpon>Formcc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formcombos.resx">
       <DependentUpon>Formcombos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formper.resx">
+      <DependentUpon>Formper.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formsalada.resx">
       <DependentUpon>Formsalada.cs</DependentUpon>

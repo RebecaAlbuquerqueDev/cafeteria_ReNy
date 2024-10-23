@@ -67,5 +67,13 @@ namespace cafeteria_ReNy
             telacombos.ShowDialog();
             this.Visible = true;
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Formper telaper = new Formper();
+            telaper.ShowDialog();
+            this.Visible = true;
+        }
     }
 }
