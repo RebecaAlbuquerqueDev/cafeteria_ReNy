@@ -221,6 +221,24 @@
     <Compile Include="Form9.Designer.cs">
       <DependentUpon>Form9.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formcc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formcc.Designer.cs">
+      <DependentUpon>Formcc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formcombos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formcombos.Designer.cs">
+      <DependentUpon>Formcombos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formsalada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formsalada.Designer.cs">
+      <DependentUpon>Formsalada.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\Clientes.cs" />
     <Compile Include="Model\ClientesDAO.cs" />
     <Compile Include="Program.cs" />
@@ -311,6 +329,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form9.resx">
       <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formcc.resx">
+      <DependentUpon>Formcc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formcombos.resx">
+      <DependentUpon>Formcombos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formsalada.resx">
+      <DependentUpon>Formsalada.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

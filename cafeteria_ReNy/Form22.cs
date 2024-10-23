@@ -69,5 +69,13 @@ namespace cafeteria_ReNy
             tela28.ShowDialog();
             this.Visible = true;
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Formcc telacc = new Formcc();
+            telacc.ShowDialog();
+            this.Visible = true;
+        }
     }
 }
