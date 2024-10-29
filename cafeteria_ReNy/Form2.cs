@@ -57,5 +57,13 @@ namespace cafeteria_ReNy
         {
             mtbsenha.PasswordChar = '*';
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Form4 tela4 = new Form4();
+            tela4.ShowDialog();
+            this.Visible = true;
+        }
     }
 }

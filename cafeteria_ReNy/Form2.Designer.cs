@@ -181,11 +181,12 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(103)))), ((int)(((byte)(47)))));
-            this.label7.Location = new System.Drawing.Point(1241, 0);
+            this.label7.Location = new System.Drawing.Point(1251, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(90, 31);
             this.label7.TabIndex = 13;
             this.label7.Text = "Home";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // Form2
             // 
