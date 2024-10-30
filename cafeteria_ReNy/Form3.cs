@@ -76,5 +76,14 @@ namespace cafeteria_ReNy
                 "\n"+ txbcasa.Text );
            
         }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Formsobre telasobre = new Formsobre();
+            telasobre.ShowDialog();
+            this.Visible = true;
+
+        }
     }
 }
