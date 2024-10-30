@@ -25,6 +25,11 @@ namespace cafeteria_ReNy.Model
        
         
 
+        public Clientes(int Codclientre ,string nomeCompleto, dynamic cpf, string email, string senha, string estado, int cep, string bairro, string rua, int ncasa)
+            : this ( nomeCompleto, cpf, email, senha, estado, cep, bairro, rua, ncasa)
+        {
+            Codcliente = Codclientre;
+        }
         public Clientes(string nomeCompleto, dynamic cpf, string email, string senha, string estado, int cep, string bairro, string rua, int ncasa)
         {
             NomeCompleto = nomeCompleto;
