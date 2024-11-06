@@ -251,12 +251,6 @@
     <Compile Include="Formsobre.Designer.cs">
       <DependentUpon>Formsobre.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formper.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formper.Designer.cs">
-      <DependentUpon>Formper.cs</DependentUpon>
-    </Compile>
     <Compile Include="Formsalada.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -368,9 +362,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formsobre.resx">
       <DependentUpon>Formsobre.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formper.resx">
-      <DependentUpon>Formper.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formsalada.resx">
       <DependentUpon>Formsalada.cs</DependentUpon>

@@ -57,6 +57,7 @@
             this.label14.Size = new System.Drawing.Size(85, 31);
             this.label14.TabIndex = 19;
             this.label14.Text = "Menu";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // label15
             // 
@@ -69,6 +70,7 @@
             this.label15.Size = new System.Drawing.Size(91, 31);
             this.label15.TabIndex = 18;
             this.label15.Text = "Sobre";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // label16
             // 
@@ -94,6 +96,7 @@
             this.Controls.Add(this.label16);
             this.Name = "Formsobre";
             this.Text = "Formhome";
+            this.Load += new System.EventHandler(this.Formsobre_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

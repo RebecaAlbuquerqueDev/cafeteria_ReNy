@@ -70,10 +70,7 @@ namespace cafeteria_ReNy
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
-            Formper telaper = new Formper();
-            telaper.ShowDialog();
-            this.Visible = true;
+           
         }
 
         private void label11_Click(object sender, EventArgs e)
