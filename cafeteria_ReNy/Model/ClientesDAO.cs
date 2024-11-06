@@ -126,16 +126,16 @@ namespace cafeteria_ReNy.Model
                     Clientes clientes = new Clientes(
                         (int)rd["Codcliente"],
                         (string)rd["NomeCompleto"],
-                        (dynamic)rd["CPF"],
+                        (string)rd["CPF"],
                         (string)rd["Email"],
                         (string)rd["Senha"],
                         (string)rd["Estado"],
                         (int)rd["CEP"],
                         (string)rd["Bairro"],
                         (string)rd["Rua"],
-                        (string)rd["Ncasa"],
-                        "000");
-                    lClientes.Add(Clientes);
+                        (int)rd["Ncasa"]
+                        );
+                    lClientes.Add(clientes);
                 }
                 rd.Close();
             }
@@ -147,6 +147,7 @@ namespace cafeteria_ReNy.Model
             {
                 Connect.CloseConnection();
             }
+            return lClientes;
         }
     }
 }

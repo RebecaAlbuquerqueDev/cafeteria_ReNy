@@ -28,7 +28,7 @@ namespace cafeteria_ReNy
 
         {
             string NomeCompleto = txbNome.Text;
-            dynamic  CPF =  mtbcpf.Text;
+            string CPF =  mtbcpf.Text;
             string Email = txbemail.Text;
             string Senha = txbsenha1.Text;
             string Estado = cbestado.Text;

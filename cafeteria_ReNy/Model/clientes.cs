@@ -13,7 +13,7 @@ namespace cafeteria_ReNy.Model
     { 
         public int Codcliente { get; set; }
         public string NomeCompleto { get; set; }
-        public dynamic  CPF { get; set; }
+        public string   CPF { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
         public string Estado { get; set; }
@@ -25,8 +25,8 @@ namespace cafeteria_ReNy.Model
        
         
 
-        public Clientes(int Codclientre ,string nomeCompleto, dynamic cpf, string email, string senha, string estado, int cep, string bairro, string rua, int ncasa)
-            : this ( nomeCompleto, cpf, email, senha, estado, cep, bairro, rua, ncasa)
+        public Clientes(int Codclientre ,string nomeCompleto, string  cpf, string email, string senha, string estado, int cep, string bairro, string rua, int ncasa) : 
+            this(nomeCompleto, cpf, email, senha, estado, cep, bairro, rua, ncasa)
         {
             Codcliente = Codclientre;
         }
