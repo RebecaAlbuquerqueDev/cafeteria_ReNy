@@ -54,6 +54,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
@@ -132,9 +136,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(848, 601);
+            this.button2.Location = new System.Drawing.Point(1592, 967);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(52, 23);
             this.button2.TabIndex = 199;
             this.button2.Text = "Voltar";
             this.button2.UseVisualStyleBackColor = true;
@@ -153,9 +157,9 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(997, 601);
+            this.button1.Location = new System.Drawing.Point(1741, 967);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 23);
+            this.button1.Size = new System.Drawing.Size(112, 23);
             this.button1.TabIndex = 197;
             this.button1.Text = "Fazer pedido";
             this.button1.UseVisualStyleBackColor = true;
@@ -329,12 +333,67 @@
             this.pictureBox1.TabIndex = 182;
             this.pictureBox1.TabStop = false;
             // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(103)))), ((int)(((byte)(47)))));
+            this.label14.Location = new System.Drawing.Point(1775, -3);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(88, 31);
+            this.label14.TabIndex = 211;
+            this.label14.Text = "Ajuda";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(103)))), ((int)(((byte)(47)))));
+            this.label15.Location = new System.Drawing.Point(1596, -3);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(85, 31);
+            this.label15.TabIndex = 210;
+            this.label15.Text = "Menu";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(103)))), ((int)(((byte)(47)))));
+            this.label16.Location = new System.Drawing.Point(1422, -3);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(91, 31);
+            this.label16.TabIndex = 209;
+            this.label16.Text = "Sobre";
+            this.label16.Click += new System.EventHandler(this.label16_Click);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(103)))), ((int)(((byte)(47)))));
+            this.label17.Location = new System.Drawing.Point(1244, -3);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(90, 31);
+            this.label17.TabIndex = 208;
+            this.label17.Text = "Home";
+            this.label17.Click += new System.EventHandler(this.label17_Click);
+            // 
             // Form25
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::cafeteria_ReNy.Properties.Resources.Design_sem_nome__2_6;
-            this.ClientSize = new System.Drawing.Size(1223, 797);
+            this.ClientSize = new System.Drawing.Size(1924, 1061);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label17);
             this.Controls.Add(this.numericUpDown9);
             this.Controls.Add(this.numericUpDown8);
             this.Controls.Add(this.numericUpDown7);
@@ -405,5 +464,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
     }
 }

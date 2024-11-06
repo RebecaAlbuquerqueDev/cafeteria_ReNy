@@ -248,7 +248,6 @@
             this.label9.Size = new System.Drawing.Size(85, 31);
             this.label9.TabIndex = 16;
             this.label9.Text = "Menu";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label10
             // 
