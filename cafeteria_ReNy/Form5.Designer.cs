@@ -248,6 +248,7 @@
             this.label9.Size = new System.Drawing.Size(85, 31);
             this.label9.TabIndex = 16;
             this.label9.Text = "Menu";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label10
             // 
@@ -260,6 +261,7 @@
             this.label10.Size = new System.Drawing.Size(91, 31);
             this.label10.TabIndex = 15;
             this.label10.Text = "Sobre";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // label11
             // 
@@ -272,6 +274,7 @@
             this.label11.Size = new System.Drawing.Size(90, 31);
             this.label11.TabIndex = 14;
             this.label11.Text = "Home";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // Form5
             // 

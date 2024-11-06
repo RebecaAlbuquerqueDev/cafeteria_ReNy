@@ -383,6 +383,7 @@
             this.label16.Size = new System.Drawing.Size(91, 31);
             this.label16.TabIndex = 39;
             this.label16.Text = "Sobre";
+            this.label16.Click += new System.EventHandler(this.label16_Click);
             // 
             // label17
             // 
@@ -395,6 +396,7 @@
             this.label17.Size = new System.Drawing.Size(90, 31);
             this.label17.TabIndex = 38;
             this.label17.Text = "Home";
+            this.label17.Click += new System.EventHandler(this.label17_Click);
             // 
             // Form9
             // 

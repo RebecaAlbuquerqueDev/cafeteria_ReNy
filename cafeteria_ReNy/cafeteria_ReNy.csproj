@@ -239,6 +239,12 @@
     <Compile Include="Formcombos.Designer.cs">
       <DependentUpon>Formcombos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formmenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formmenu.Designer.cs">
+      <DependentUpon>Formmenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formsobre.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -356,6 +362,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formcombos.resx">
       <DependentUpon>Formcombos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formmenu.resx">
+      <DependentUpon>Formmenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formsobre.resx">
       <DependentUpon>Formsobre.cs</DependentUpon>

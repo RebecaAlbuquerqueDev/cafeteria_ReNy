@@ -394,7 +394,7 @@
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(1729, 971);
             this.button1.Name = "button1";
@@ -408,7 +408,7 @@
             this.button2.BackColor = System.Drawing.Color.Transparent;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(1583, 971);
             this.button2.Name = "button2";
@@ -441,6 +441,7 @@
             this.label18.Size = new System.Drawing.Size(85, 31);
             this.label18.TabIndex = 57;
             this.label18.Text = "Menu";
+            this.label18.Click += new System.EventHandler(this.label18_Click);
             // 
             // label19
             // 
@@ -453,6 +454,7 @@
             this.label19.Size = new System.Drawing.Size(91, 31);
             this.label19.TabIndex = 56;
             this.label19.Text = "Sobre";
+            this.label19.Click += new System.EventHandler(this.label19_Click);
             // 
             // label20
             // 
@@ -465,6 +467,7 @@
             this.label20.Size = new System.Drawing.Size(90, 31);
             this.label20.TabIndex = 55;
             this.label20.Text = "Home";
+            this.label20.Click += new System.EventHandler(this.label20_Click);
             // 
             // CafeteriaReny7
             // 
