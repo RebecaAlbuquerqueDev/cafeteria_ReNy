@@ -16,5 +16,30 @@ namespace cafeteria_ReNy
         {
             InitializeComponent();
         }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
+            this.Visible = false;
+            Form4 tela4 = new Form4();
+            tela4.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Formsobre telasobre = new Formsobre();
+            telasobre.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Formmenu telamenu = new Formmenu();
+            telamenu.ShowDialog();
+            this.Visible = true;
+        }
     }
 }
