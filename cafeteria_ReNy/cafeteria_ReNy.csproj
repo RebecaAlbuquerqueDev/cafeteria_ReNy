@@ -47,179 +47,179 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connection.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Forminicio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Forminicio.Designer.cs">
+      <DependentUpon>Forminicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form10.cs">
+    <Compile Include="Formcarrinho.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form10.Designer.cs">
-      <DependentUpon>Form10.cs</DependentUpon>
+    <Compile Include="Formcarrinho.Designer.cs">
+      <DependentUpon>Formcarrinho.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form11.cs">
+    <Compile Include="Formcha.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form11.Designer.cs">
-      <DependentUpon>Form11.cs</DependentUpon>
+    <Compile Include="Formcha.Designer.cs">
+      <DependentUpon>Formcha.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form12.cs">
+    <Compile Include="Formchocolate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form12.Designer.cs">
-      <DependentUpon>Form12.cs</DependentUpon>
+    <Compile Include="Formchocolate.Designer.cs">
+      <DependentUpon>Formchocolate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form13.cs">
+    <Compile Include="Formmilkshake.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form13.Designer.cs">
-      <DependentUpon>Form13.cs</DependentUpon>
+    <Compile Include="Formmilkshake.Designer.cs">
+      <DependentUpon>Formmilkshake.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form14.cs">
+    <Compile Include="Formsuco.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form14.Designer.cs">
-      <DependentUpon>Form14.cs</DependentUpon>
+    <Compile Include="Formsuco.Designer.cs">
+      <DependentUpon>Formsuco.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form15.cs">
+    <Compile Include="Formcoxinha.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form15.Designer.cs">
-      <DependentUpon>Form15.cs</DependentUpon>
+    <Compile Include="Formcoxinha.Designer.cs">
+      <DependentUpon>Formcoxinha.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form16.cs">
+    <Compile Include="Formcroissant.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form16.Designer.cs">
-      <DependentUpon>Form16.cs</DependentUpon>
+    <Compile Include="Formcroissant.Designer.cs">
+      <DependentUpon>Formcroissant.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form17.cs">
+    <Compile Include="Formpastel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form17.Designer.cs">
-      <DependentUpon>Form17.cs</DependentUpon>
+    <Compile Include="Formpastel.Designer.cs">
+      <DependentUpon>Formpastel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form18.cs">
+    <Compile Include="Formempada.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form18.Designer.cs">
-      <DependentUpon>Form18.cs</DependentUpon>
+    <Compile Include="Formempada.Designer.cs">
+      <DependentUpon>Formempada.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form19.cs">
+    <Compile Include="Formquiche.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form19.Designer.cs">
-      <DependentUpon>Form19.cs</DependentUpon>
+    <Compile Include="Formquiche.Designer.cs">
+      <DependentUpon>Formquiche.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="Formlogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Formlogin.Designer.cs">
+      <DependentUpon>Formlogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form20.cs">
+    <Compile Include="Formsanduiche.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form20.Designer.cs">
-      <DependentUpon>Form20.cs</DependentUpon>
+    <Compile Include="Formsanduiche.Designer.cs">
+      <DependentUpon>Formsanduiche.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form21.cs">
+    <Compile Include="Formtortasalgada.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form21.Designer.cs">
-      <DependentUpon>Form21.cs</DependentUpon>
+    <Compile Include="Formtortasalgada.Designer.cs">
+      <DependentUpon>Formtortasalgada.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form22.cs">
+    <Compile Include="Formdoce.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form22.Designer.cs">
-      <DependentUpon>Form22.cs</DependentUpon>
+    <Compile Include="Formdoce.Designer.cs">
+      <DependentUpon>Formdoce.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form23.cs">
+    <Compile Include="Formtortadoce.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form23.Designer.cs">
-      <DependentUpon>Form23.cs</DependentUpon>
+    <Compile Include="Formtortadoce.Designer.cs">
+      <DependentUpon>Formtortadoce.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form24.cs">
+    <Compile Include="Formpanetone.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form24.Designer.cs">
-      <DependentUpon>Form24.cs</DependentUpon>
+    <Compile Include="Formpanetone.Designer.cs">
+      <DependentUpon>Formpanetone.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form25.cs">
+    <Compile Include="Formcoockies.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form25.Designer.cs">
-      <DependentUpon>Form25.cs</DependentUpon>
+    <Compile Include="Formcoockies.Designer.cs">
+      <DependentUpon>Formcoockies.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form26.cs">
+    <Compile Include="Formbolo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form26.Designer.cs">
-      <DependentUpon>Form26.cs</DependentUpon>
+    <Compile Include="Formbolo.Designer.cs">
+      <DependentUpon>Formbolo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form27.cs">
+    <Compile Include="Formmuffins.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form27.Designer.cs">
-      <DependentUpon>Form27.cs</DependentUpon>
+    <Compile Include="Formmuffins.Designer.cs">
+      <DependentUpon>Formmuffins.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form28.cs">
+    <Compile Include="Formbrownies.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form28.Designer.cs">
-      <DependentUpon>Form28.cs</DependentUpon>
+    <Compile Include="Formbrownies.Designer.cs">
+      <DependentUpon>Formbrownies.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form29.cs">
+    <Compile Include="Formpagamento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form29.Designer.cs">
-      <DependentUpon>Form29.cs</DependentUpon>
+    <Compile Include="Formpagamento.Designer.cs">
+      <DependentUpon>Formpagamento.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="Formcadastro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="Formcadastro.Designer.cs">
+      <DependentUpon>Formcadastro.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
+    <Compile Include="Formhome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <Compile Include="Formhome.Designer.cs">
+      <DependentUpon>Formhome.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form5.cs">
+    <Compile Include="Formbebidas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.cs">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <Compile Include="Formbebidas.Designer.cs">
+      <DependentUpon>Formbebidas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form6.cs">
+    <Compile Include="Formcafé.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form6.Designer.cs">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <Compile Include="Formcafé.Designer.cs">
+      <DependentUpon>Formcafé.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form7.cs">
+    <Compile Include="Formcafegelado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form7.Designer.cs">
-      <DependentUpon>Form7.cs</DependentUpon>
+    <Compile Include="Formcafegelado.Designer.cs">
+      <DependentUpon>Formcafegelado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form8.cs">
+    <Compile Include="Formsalgados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form8.Designer.cs">
-      <DependentUpon>Form8.cs</DependentUpon>
+    <Compile Include="Formsalgados.Designer.cs">
+      <DependentUpon>Formsalgados.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form9.cs">
+    <Compile Include="Formpaodequeijo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form9.Designer.cs">
-      <DependentUpon>Form9.cs</DependentUpon>
+    <Compile Include="Formpaodequeijo.Designer.cs">
+      <DependentUpon>Formpaodequeijo.cs</DependentUpon>
     </Compile>
     <Compile Include="Formbri.cs">
       <SubType>Form</SubType>
@@ -261,92 +261,92 @@
     <Compile Include="Model\ClientesDAO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Forminicio.resx">
+      <DependentUpon>Forminicio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form10.resx">
-      <DependentUpon>Form10.cs</DependentUpon>
+    <EmbeddedResource Include="Formcarrinho.resx">
+      <DependentUpon>Formcarrinho.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form11.resx">
-      <DependentUpon>Form11.cs</DependentUpon>
+    <EmbeddedResource Include="Formcha.resx">
+      <DependentUpon>Formcha.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form12.resx">
-      <DependentUpon>Form12.cs</DependentUpon>
+    <EmbeddedResource Include="Formchocolate.resx">
+      <DependentUpon>Formchocolate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form13.resx">
-      <DependentUpon>Form13.cs</DependentUpon>
+    <EmbeddedResource Include="Formmilkshake.resx">
+      <DependentUpon>Formmilkshake.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form14.resx">
-      <DependentUpon>Form14.cs</DependentUpon>
+    <EmbeddedResource Include="Formsuco.resx">
+      <DependentUpon>Formsuco.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form15.resx">
-      <DependentUpon>Form15.cs</DependentUpon>
+    <EmbeddedResource Include="Formcoxinha.resx">
+      <DependentUpon>Formcoxinha.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form16.resx">
-      <DependentUpon>Form16.cs</DependentUpon>
+    <EmbeddedResource Include="Formcroissant.resx">
+      <DependentUpon>Formcroissant.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form17.resx">
-      <DependentUpon>Form17.cs</DependentUpon>
+    <EmbeddedResource Include="Formpastel.resx">
+      <DependentUpon>Formpastel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form18.resx">
-      <DependentUpon>Form18.cs</DependentUpon>
+    <EmbeddedResource Include="Formempada.resx">
+      <DependentUpon>Formempada.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form19.resx">
-      <DependentUpon>Form19.cs</DependentUpon>
+    <EmbeddedResource Include="Formquiche.resx">
+      <DependentUpon>Formquiche.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="Formlogin.resx">
+      <DependentUpon>Formlogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form20.resx">
-      <DependentUpon>Form20.cs</DependentUpon>
+    <EmbeddedResource Include="Formsanduiche.resx">
+      <DependentUpon>Formsanduiche.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form21.resx">
-      <DependentUpon>Form21.cs</DependentUpon>
+    <EmbeddedResource Include="Formtortasalgada.resx">
+      <DependentUpon>Formtortasalgada.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form22.resx">
-      <DependentUpon>Form22.cs</DependentUpon>
+    <EmbeddedResource Include="Formdoce.resx">
+      <DependentUpon>Formdoce.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form23.resx">
-      <DependentUpon>Form23.cs</DependentUpon>
+    <EmbeddedResource Include="Formtortadoce.resx">
+      <DependentUpon>Formtortadoce.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form24.resx">
-      <DependentUpon>Form24.cs</DependentUpon>
+    <EmbeddedResource Include="Formpanetone.resx">
+      <DependentUpon>Formpanetone.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form25.resx">
-      <DependentUpon>Form25.cs</DependentUpon>
+    <EmbeddedResource Include="Formcoockies.resx">
+      <DependentUpon>Formcoockies.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form26.resx">
-      <DependentUpon>Form26.cs</DependentUpon>
+    <EmbeddedResource Include="Formbolo.resx">
+      <DependentUpon>Formbolo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form27.resx">
-      <DependentUpon>Form27.cs</DependentUpon>
+    <EmbeddedResource Include="Formmuffins.resx">
+      <DependentUpon>Formmuffins.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form28.resx">
-      <DependentUpon>Form28.cs</DependentUpon>
+    <EmbeddedResource Include="Formbrownies.resx">
+      <DependentUpon>Formbrownies.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form29.resx">
-      <DependentUpon>Form29.cs</DependentUpon>
+    <EmbeddedResource Include="Formpagamento.resx">
+      <DependentUpon>Formpagamento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="Formcadastro.resx">
+      <DependentUpon>Formcadastro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <EmbeddedResource Include="Formhome.resx">
+      <DependentUpon>Formhome.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <EmbeddedResource Include="Formbebidas.resx">
+      <DependentUpon>Formbebidas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form6.resx">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <EmbeddedResource Include="Formcafé.resx">
+      <DependentUpon>Formcafé.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form7.resx">
-      <DependentUpon>Form7.cs</DependentUpon>
+    <EmbeddedResource Include="Formcafegelado.resx">
+      <DependentUpon>Formcafegelado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form8.resx">
-      <DependentUpon>Form8.cs</DependentUpon>
+    <EmbeddedResource Include="Formsalgados.resx">
+      <DependentUpon>Formsalgados.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form9.resx">
-      <DependentUpon>Form9.cs</DependentUpon>
+    <EmbeddedResource Include="Formpaodequeijo.resx">
+      <DependentUpon>Formpaodequeijo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formbri.resx">
       <DependentUpon>Formbri.cs</DependentUpon>

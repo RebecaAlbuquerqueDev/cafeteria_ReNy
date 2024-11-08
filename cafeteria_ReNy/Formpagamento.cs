@@ -10,14 +10,28 @@ using System.Windows.Forms;
 
 namespace cafeteria_ReNy
 {
-    public partial class Formmenu : Form
+    public partial class Formpagamento : Form
     {
-        public Formmenu()
+        public Formpagamento()
         {
             InitializeComponent();
         }
 
-        private void label7_Click(object sender, EventArgs e)
+        private void btnok_Click(object sender, EventArgs e)
+        {
+            btnok.Visible = false;  
+            cbforma.Visible = false;
+            lblforma.Visible = false;
+            lblmensagem.Visible = true;
+            
+        }
+
+        private void Form29_Load(object sender, EventArgs e)
+        {
+            lblmensagem.Visible = false;
+        }
+
+        private void label13_Click(object sender, EventArgs e)
         {
             this.Visible = false;
             Formhome tela4 = new Formhome();
@@ -25,7 +39,7 @@ namespace cafeteria_ReNy
             this.Visible = true;
         }
 
-        private void label6_Click(object sender, EventArgs e)
+        private void label12_Click(object sender, EventArgs e)
         {
             this.Visible = false;
             Formsobre telasobre = new Formsobre();
@@ -33,7 +47,7 @@ namespace cafeteria_ReNy
             this.Visible = true;
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void label11_Click(object sender, EventArgs e)
         {
             this.Visible = false;
             Formmenu telamenu = new Formmenu();

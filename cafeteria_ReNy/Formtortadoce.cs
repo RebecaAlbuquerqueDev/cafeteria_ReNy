@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace cafeteria_ReNy
 {
-    public partial class Formmenu : Form
+    public partial class Formtortadoce : Form
     {
-        public Formmenu()
+        public Formtortadoce()
         {
             InitializeComponent();
         }
 
-        private void label7_Click(object sender, EventArgs e)
+        private void label31_Click(object sender, EventArgs e)
         {
             this.Visible = false;
             Formhome tela4 = new Formhome();
@@ -25,7 +25,7 @@ namespace cafeteria_ReNy
             this.Visible = true;
         }
 
-        private void label6_Click(object sender, EventArgs e)
+        private void Form23_Load(object sender, EventArgs e)
         {
             this.Visible = false;
             Formsobre telasobre = new Formsobre();
@@ -33,7 +33,7 @@ namespace cafeteria_ReNy
             this.Visible = true;
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void label29_Click(object sender, EventArgs e)
         {
             this.Visible = false;
             Formmenu telamenu = new Formmenu();

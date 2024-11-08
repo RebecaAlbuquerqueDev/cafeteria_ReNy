@@ -21,7 +21,7 @@ namespace cafeteria_ReNy
         {
 
             this.Visible = false;
-            Form4 tela4 = new Form4();
+            Formhome tela4 = new Formhome();
             tela4.ShowDialog();
             this.Visible = true;
         }
