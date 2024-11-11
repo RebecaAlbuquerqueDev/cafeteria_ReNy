@@ -117,4 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value> - Expresso                                                      
+ - Pingado                                                        
+ - Latte                                                               
+ - Cappuccino                                                   
+ - Expresso italiano                                        
+ - Mocha                                                             
+ - Machiato                                                          
+ - Affogato                                                        
+ - Americano                                                    </value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value> - Americano gelado
+ - Cold brew
+ - Cappuccino gelado
+ - Expresso tônica 
+ - Frappuccino
+ - Frappuccino de oreo
+ - Frappuccino de chocolate                                
+ - Frappuccino de nutella
+ - Frappuccino de baunilha 
+ - Frappuccino de caramelo
+ - Mocha gelado
+ - Latte gelado </value>
+  </data>
 </root>

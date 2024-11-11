@@ -39,10 +39,6 @@
             this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown9 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown10 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown11 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown12 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown17 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown18 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown19 = new System.Windows.Forms.NumericUpDown();
@@ -62,10 +58,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -97,10 +89,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown19)).BeginInit();
@@ -131,16 +119,12 @@
             this.checkedListBox1.Items.AddRange(new object[] {
             "Chá preto........................................................................" +
                 "....................................",
-            "Chá branco......................................................................." +
-                ".............................",
             "Chá verde........................................................................" +
                 ".................................",
             "Chá de camomila.................................................................." +
                 "......................",
             "Chá de erva doce................................................................." +
                 "...........................",
-            "Chá de capim limão..............................................................." +
-                ".......................",
             "Chá de capim cidreira............................................................" +
                 "....................",
             "Chá de frutas vermelhas.........................................................." +
@@ -148,44 +132,17 @@
             "Chá de hibsco...................................................................." +
                 ".............................",
             "Chá de morango..................................................................." +
-                ".............................",
-            "Chá de hibisco com morango......................................................." +
-                "............",
-            "Chá de maçã com canela..........................................................." +
-                "......................"});
+                "............................."});
             this.checkedListBox1.Location = new System.Drawing.Point(893, 257);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(361, 268);
+            this.checkedListBox1.Size = new System.Drawing.Size(361, 180);
             this.checkedListBox1.TabIndex = 3;
             // 
             // checkedListBox2
             // 
             this.checkedListBox2.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkedListBox2.FormattingEnabled = true;
-            this.checkedListBox2.Items.AddRange(new object[] {
-            "Chá de pêssego..................................................................." +
-                ".....................................",
-            "Chá branco com pêssego..........................................................." +
-                "...........................",
-            "Chá de pêssego com morango......................................................." +
-                "........................",
-            "Chá de morango .................................................................." +
-                "......................................",
-            "Chá de frutas vermelhos ........................................................." +
-                "....................................",
-            "Chá de hibìsco com frutas vermelhas.............................................." +
-                "............................",
-            "Chá de camomila com laranja......................................................" +
-                "...........................",
-            "Chá de abacaxi com laranja ......................................................" +
-                "...............................",
-            "Chá de laranja com manga........................................................." +
-                ".........................",
-            "Chá de laranja com manga, abacaxi e morango......................................" +
-                "..............",
-            "Chá de morango com abacaxi......................................................." +
-                "........................"});
-            this.checkedListBox2.Location = new System.Drawing.Point(893, 598);
+            this.checkedListBox2.Location = new System.Drawing.Point(894, 542);
             this.checkedListBox2.Name = "checkedListBox2";
             this.checkedListBox2.Size = new System.Drawing.Size(361, 246);
             this.checkedListBox2.TabIndex = 4;
@@ -254,42 +211,10 @@
             this.numericUpDown8.Size = new System.Drawing.Size(120, 16);
             this.numericUpDown8.TabIndex = 12;
             // 
-            // numericUpDown9
-            // 
-            this.numericUpDown9.Font = new System.Drawing.Font("Microsoft Tai Le", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown9.Location = new System.Drawing.Point(1260, 433);
-            this.numericUpDown9.Name = "numericUpDown9";
-            this.numericUpDown9.Size = new System.Drawing.Size(120, 16);
-            this.numericUpDown9.TabIndex = 13;
-            // 
-            // numericUpDown10
-            // 
-            this.numericUpDown10.Font = new System.Drawing.Font("Microsoft Tai Le", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown10.Location = new System.Drawing.Point(1260, 455);
-            this.numericUpDown10.Name = "numericUpDown10";
-            this.numericUpDown10.Size = new System.Drawing.Size(120, 16);
-            this.numericUpDown10.TabIndex = 14;
-            // 
-            // numericUpDown11
-            // 
-            this.numericUpDown11.Font = new System.Drawing.Font("Microsoft Tai Le", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown11.Location = new System.Drawing.Point(1260, 477);
-            this.numericUpDown11.Name = "numericUpDown11";
-            this.numericUpDown11.Size = new System.Drawing.Size(120, 16);
-            this.numericUpDown11.TabIndex = 15;
-            // 
-            // numericUpDown12
-            // 
-            this.numericUpDown12.Font = new System.Drawing.Font("Microsoft Tai Le", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown12.Location = new System.Drawing.Point(1260, 499);
-            this.numericUpDown12.Name = "numericUpDown12";
-            this.numericUpDown12.Size = new System.Drawing.Size(120, 16);
-            this.numericUpDown12.TabIndex = 16;
-            // 
             // numericUpDown17
             // 
             this.numericUpDown17.Font = new System.Drawing.Font("Microsoft Tai Le", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown17.Location = new System.Drawing.Point(1260, 599);
+            this.numericUpDown17.Location = new System.Drawing.Point(1261, 543);
             this.numericUpDown17.Name = "numericUpDown17";
             this.numericUpDown17.Size = new System.Drawing.Size(120, 16);
             this.numericUpDown17.TabIndex = 21;
@@ -297,7 +222,7 @@
             // numericUpDown18
             // 
             this.numericUpDown18.Font = new System.Drawing.Font("Microsoft Tai Le", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown18.Location = new System.Drawing.Point(1260, 621);
+            this.numericUpDown18.Location = new System.Drawing.Point(1261, 565);
             this.numericUpDown18.Name = "numericUpDown18";
             this.numericUpDown18.Size = new System.Drawing.Size(120, 16);
             this.numericUpDown18.TabIndex = 22;
@@ -305,7 +230,7 @@
             // numericUpDown19
             // 
             this.numericUpDown19.Font = new System.Drawing.Font("Microsoft Tai Le", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown19.Location = new System.Drawing.Point(1260, 643);
+            this.numericUpDown19.Location = new System.Drawing.Point(1261, 587);
             this.numericUpDown19.Name = "numericUpDown19";
             this.numericUpDown19.Size = new System.Drawing.Size(120, 16);
             this.numericUpDown19.TabIndex = 23;
@@ -313,7 +238,7 @@
             // numericUpDown20
             // 
             this.numericUpDown20.Font = new System.Drawing.Font("Microsoft Tai Le", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown20.Location = new System.Drawing.Point(1260, 665);
+            this.numericUpDown20.Location = new System.Drawing.Point(1261, 609);
             this.numericUpDown20.Name = "numericUpDown20";
             this.numericUpDown20.Size = new System.Drawing.Size(120, 16);
             this.numericUpDown20.TabIndex = 24;
@@ -321,7 +246,7 @@
             // numericUpDown21
             // 
             this.numericUpDown21.Font = new System.Drawing.Font("Microsoft Tai Le", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown21.Location = new System.Drawing.Point(1260, 687);
+            this.numericUpDown21.Location = new System.Drawing.Point(1261, 631);
             this.numericUpDown21.Name = "numericUpDown21";
             this.numericUpDown21.Size = new System.Drawing.Size(120, 16);
             this.numericUpDown21.TabIndex = 25;
@@ -329,7 +254,7 @@
             // numericUpDown22
             // 
             this.numericUpDown22.Font = new System.Drawing.Font("Microsoft Tai Le", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown22.Location = new System.Drawing.Point(1260, 709);
+            this.numericUpDown22.Location = new System.Drawing.Point(1261, 653);
             this.numericUpDown22.Name = "numericUpDown22";
             this.numericUpDown22.Size = new System.Drawing.Size(120, 16);
             this.numericUpDown22.TabIndex = 26;
@@ -337,7 +262,7 @@
             // numericUpDown23
             // 
             this.numericUpDown23.Font = new System.Drawing.Font("Microsoft Tai Le", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown23.Location = new System.Drawing.Point(1260, 731);
+            this.numericUpDown23.Location = new System.Drawing.Point(1261, 675);
             this.numericUpDown23.Name = "numericUpDown23";
             this.numericUpDown23.Size = new System.Drawing.Size(120, 16);
             this.numericUpDown23.TabIndex = 27;
@@ -345,7 +270,7 @@
             // numericUpDown24
             // 
             this.numericUpDown24.Font = new System.Drawing.Font("Microsoft Tai Le", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown24.Location = new System.Drawing.Point(1260, 753);
+            this.numericUpDown24.Location = new System.Drawing.Point(1261, 697);
             this.numericUpDown24.Name = "numericUpDown24";
             this.numericUpDown24.Size = new System.Drawing.Size(120, 16);
             this.numericUpDown24.TabIndex = 28;
@@ -353,7 +278,7 @@
             // numericUpDown25
             // 
             this.numericUpDown25.Font = new System.Drawing.Font("Microsoft Tai Le", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown25.Location = new System.Drawing.Point(1260, 775);
+            this.numericUpDown25.Location = new System.Drawing.Point(1261, 719);
             this.numericUpDown25.Name = "numericUpDown25";
             this.numericUpDown25.Size = new System.Drawing.Size(120, 16);
             this.numericUpDown25.TabIndex = 29;
@@ -361,7 +286,7 @@
             // numericUpDown26
             // 
             this.numericUpDown26.Font = new System.Drawing.Font("Microsoft Tai Le", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown26.Location = new System.Drawing.Point(1260, 797);
+            this.numericUpDown26.Location = new System.Drawing.Point(1261, 741);
             this.numericUpDown26.Name = "numericUpDown26";
             this.numericUpDown26.Size = new System.Drawing.Size(120, 16);
             this.numericUpDown26.TabIndex = 30;
@@ -369,7 +294,7 @@
             // numericUpDown27
             // 
             this.numericUpDown27.Font = new System.Drawing.Font("Microsoft Tai Le", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown27.Location = new System.Drawing.Point(1260, 819);
+            this.numericUpDown27.Location = new System.Drawing.Point(1261, 763);
             this.numericUpDown27.Name = "numericUpDown27";
             this.numericUpDown27.Size = new System.Drawing.Size(120, 16);
             this.numericUpDown27.TabIndex = 31;
@@ -462,56 +387,12 @@
             this.label8.TabIndex = 39;
             this.label8.Text = "R$5,00";
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.White;
-            this.label9.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(1412, 435);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(41, 14);
-            this.label9.TabIndex = 40;
-            this.label9.Text = "R$5,00";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.White;
-            this.label10.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(1412, 457);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 14);
-            this.label10.TabIndex = 41;
-            this.label10.Text = "R$5,00";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.White;
-            this.label11.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(1412, 479);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 14);
-            this.label11.TabIndex = 42;
-            this.label11.Text = "R$5,00";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.White;
-            this.label12.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(1412, 513);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(41, 14);
-            this.label12.TabIndex = 43;
-            this.label12.Text = "R$5,00";
-            // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.White;
             this.label13.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(1412, 601);
+            this.label13.Location = new System.Drawing.Point(1413, 545);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(41, 14);
             this.label13.TabIndex = 44;
@@ -522,7 +403,7 @@
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.White;
             this.label14.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(1412, 623);
+            this.label14.Location = new System.Drawing.Point(1413, 567);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(41, 14);
             this.label14.TabIndex = 45;
@@ -533,7 +414,7 @@
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.White;
             this.label15.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(1412, 645);
+            this.label15.Location = new System.Drawing.Point(1413, 589);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(41, 14);
             this.label15.TabIndex = 46;
@@ -544,7 +425,7 @@
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.Color.White;
             this.label16.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(1412, 669);
+            this.label16.Location = new System.Drawing.Point(1413, 613);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(41, 14);
             this.label16.TabIndex = 47;
@@ -555,7 +436,7 @@
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.White;
             this.label17.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(1412, 689);
+            this.label17.Location = new System.Drawing.Point(1413, 633);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(41, 14);
             this.label17.TabIndex = 48;
@@ -566,7 +447,7 @@
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.Color.White;
             this.label18.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(1412, 711);
+            this.label18.Location = new System.Drawing.Point(1413, 655);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(41, 14);
             this.label18.TabIndex = 49;
@@ -577,7 +458,7 @@
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.Color.White;
             this.label19.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(1412, 733);
+            this.label19.Location = new System.Drawing.Point(1413, 677);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(41, 14);
             this.label19.TabIndex = 50;
@@ -588,7 +469,7 @@
             this.label20.AutoSize = true;
             this.label20.BackColor = System.Drawing.Color.White;
             this.label20.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(1412, 757);
+            this.label20.Location = new System.Drawing.Point(1413, 701);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(41, 14);
             this.label20.TabIndex = 51;
@@ -599,7 +480,7 @@
             this.label21.AutoSize = true;
             this.label21.BackColor = System.Drawing.Color.White;
             this.label21.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(1412, 777);
+            this.label21.Location = new System.Drawing.Point(1413, 721);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(41, 14);
             this.label21.TabIndex = 52;
@@ -610,7 +491,7 @@
             this.label22.AutoSize = true;
             this.label22.BackColor = System.Drawing.Color.White;
             this.label22.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(1412, 799);
+            this.label22.Location = new System.Drawing.Point(1413, 743);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(41, 14);
             this.label22.TabIndex = 53;
@@ -621,7 +502,7 @@
             this.label42.AutoSize = true;
             this.label42.BackColor = System.Drawing.Color.White;
             this.label42.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(1412, 821);
+            this.label42.Location = new System.Drawing.Point(1413, 765);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(41, 14);
             this.label42.TabIndex = 73;
@@ -710,7 +591,7 @@
             this.label27.BackColor = System.Drawing.Color.Transparent;
             this.label27.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(103)))), ((int)(((byte)(47)))));
-            this.label27.Location = new System.Drawing.Point(889, 562);
+            this.label27.Location = new System.Drawing.Point(890, 506);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(86, 23);
             this.label27.TabIndex = 80;
@@ -767,7 +648,7 @@
             this.label31.Text = "Home";
             this.label31.Click += new System.EventHandler(this.label31_Click);
             // 
-            // Form11
+            // Formcha
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -795,10 +676,6 @@
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -818,10 +695,6 @@
             this.Controls.Add(this.numericUpDown19);
             this.Controls.Add(this.numericUpDown18);
             this.Controls.Add(this.numericUpDown17);
-            this.Controls.Add(this.numericUpDown12);
-            this.Controls.Add(this.numericUpDown11);
-            this.Controls.Add(this.numericUpDown10);
-            this.Controls.Add(this.numericUpDown9);
             this.Controls.Add(this.numericUpDown8);
             this.Controls.Add(this.numericUpDown7);
             this.Controls.Add(this.numericUpDown6);
@@ -833,7 +706,7 @@
             this.Controls.Add(this.checkedListBox2);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form11";
+            this.Name = "Formcha";
             this.Text = "Form11";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
@@ -844,10 +717,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown19)).EndInit();
@@ -877,10 +746,6 @@
         private System.Windows.Forms.NumericUpDown numericUpDown6;
         private System.Windows.Forms.NumericUpDown numericUpDown7;
         private System.Windows.Forms.NumericUpDown numericUpDown8;
-        private System.Windows.Forms.NumericUpDown numericUpDown9;
-        private System.Windows.Forms.NumericUpDown numericUpDown10;
-        private System.Windows.Forms.NumericUpDown numericUpDown11;
-        private System.Windows.Forms.NumericUpDown numericUpDown12;
         private System.Windows.Forms.NumericUpDown numericUpDown17;
         private System.Windows.Forms.NumericUpDown numericUpDown18;
         private System.Windows.Forms.NumericUpDown numericUpDown19;
@@ -900,10 +765,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
