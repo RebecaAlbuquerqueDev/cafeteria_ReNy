@@ -25,10 +25,11 @@ namespace cafeteria_ReNy.Model
             Command.CommandText =
             @"INSERT INTO 
             Produtos VALUES 
-            (@ProdutoNameName, @ProdutoPreco)";
+            (@ProdutoNameName, @ProdutoPreco @Categoria)";
 
-            Command.Parameters.AddWithValue("@brokerName", produtos.ProdutoName);
-            Command.Parameters.AddWithValue("@brokerCode", produtos.ProdutoPreco);
+            Command.Parameters.AddWithValue("@produtoname", produtos.ProdutoName);
+            Command.Parameters.AddWithValue("@produtoPreco", produtos.ProdutoPreco);
+            Command.Parameters.AddWithValue("@Categoria", produtos.ProdutoName );
            
             try
             {
@@ -111,10 +112,11 @@ namespace cafeteria_ReNy.Model
                 //Enquanto for possível continuar a leitura das linhas que foram retornadas na consulta, execute.
                 while (rd.Read())
                 {
-                    Produtos produtos = new produtos (
+                    Produtos produtos = new produtos(
                         (int)rd["Id"],
                         (string)rd["ProdutoName"],
-                        (string)rd["ProdutoPreco"]
+                        (float)rd["ProdutoPreco"],
+                        (string)rd["Categoria"]
                         
                         );
                     produtos.Add(produtos);
