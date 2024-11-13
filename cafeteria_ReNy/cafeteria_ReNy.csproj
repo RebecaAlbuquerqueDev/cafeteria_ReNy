@@ -47,323 +47,325 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connection.cs" />
-    <Compile Include="Forminicio.cs">
+    <Compile Include="Model\ProdutosDAO.cs" />
+    <Compile Include="View\Forminicio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forminicio.Designer.cs">
+    <Compile Include="View\Forminicio.Designer.cs">
       <DependentUpon>Forminicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formcarrinho.cs">
+    <Compile Include="View\Formcarrinho.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formcarrinho.Designer.cs">
+    <Compile Include="View\Formcarrinho.Designer.cs">
       <DependentUpon>Formcarrinho.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formcha.cs">
+    <Compile Include="View\Formcha.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formcha.Designer.cs">
+    <Compile Include="View\Formcha.Designer.cs">
       <DependentUpon>Formcha.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formchocolate.cs">
+    <Compile Include="View\Formchocolate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formchocolate.Designer.cs">
+    <Compile Include="View\Formchocolate.Designer.cs">
       <DependentUpon>Formchocolate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formmilkshake.cs">
+    <Compile Include="View\Formmilkshake.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formmilkshake.Designer.cs">
+    <Compile Include="View\Formmilkshake.Designer.cs">
       <DependentUpon>Formmilkshake.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formsuco.cs">
+    <Compile Include="View\Formsuco.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formsuco.Designer.cs">
+    <Compile Include="View\Formsuco.Designer.cs">
       <DependentUpon>Formsuco.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formcoxinha.cs">
+    <Compile Include="View\Formcoxinha.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formcoxinha.Designer.cs">
+    <Compile Include="View\Formcoxinha.Designer.cs">
       <DependentUpon>Formcoxinha.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formcroissant.cs">
+    <Compile Include="View\Formcroissant.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formcroissant.Designer.cs">
+    <Compile Include="View\Formcroissant.Designer.cs">
       <DependentUpon>Formcroissant.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formpastel.cs">
+    <Compile Include="View\Formpastel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formpastel.Designer.cs">
+    <Compile Include="View\Formpastel.Designer.cs">
       <DependentUpon>Formpastel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formempada.cs">
+    <Compile Include="View\Formempada.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formempada.Designer.cs">
+    <Compile Include="View\Formempada.Designer.cs">
       <DependentUpon>Formempada.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formquiche.cs">
+    <Compile Include="View\Formquiche.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formquiche.Designer.cs">
+    <Compile Include="View\Formquiche.Designer.cs">
       <DependentUpon>Formquiche.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formlogin.cs">
+    <Compile Include="View\Formlogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formlogin.Designer.cs">
+    <Compile Include="View\Formlogin.Designer.cs">
       <DependentUpon>Formlogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formsanduiche.cs">
+    <Compile Include="View\Formsanduiche.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formsanduiche.Designer.cs">
+    <Compile Include="View\Formsanduiche.Designer.cs">
       <DependentUpon>Formsanduiche.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formtortasalgada.cs">
+    <Compile Include="View\Formtortasalgada.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formtortasalgada.Designer.cs">
+    <Compile Include="View\Formtortasalgada.Designer.cs">
       <DependentUpon>Formtortasalgada.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formdoce.cs">
+    <Compile Include="View\Formdoce.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formdoce.Designer.cs">
+    <Compile Include="View\Formdoce.Designer.cs">
       <DependentUpon>Formdoce.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formtortadoce.cs">
+    <Compile Include="View\Formtortadoce.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formtortadoce.Designer.cs">
+    <Compile Include="View\Formtortadoce.Designer.cs">
       <DependentUpon>Formtortadoce.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formpanetone.cs">
+    <Compile Include="View\Formpanetone.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formpanetone.Designer.cs">
+    <Compile Include="View\Formpanetone.Designer.cs">
       <DependentUpon>Formpanetone.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formcoockies.cs">
+    <Compile Include="View\Formcoockies.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formcoockies.Designer.cs">
+    <Compile Include="View\Formcoockies.Designer.cs">
       <DependentUpon>Formcoockies.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formbolo.cs">
+    <Compile Include="View\Formbolo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formbolo.Designer.cs">
+    <Compile Include="View\Formbolo.Designer.cs">
       <DependentUpon>Formbolo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formmuffins.cs">
+    <Compile Include="View\Formmuffins.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formmuffins.Designer.cs">
+    <Compile Include="View\Formmuffins.Designer.cs">
       <DependentUpon>Formmuffins.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formbrownies.cs">
+    <Compile Include="View\Formbrownies.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formbrownies.Designer.cs">
+    <Compile Include="View\Formbrownies.Designer.cs">
       <DependentUpon>Formbrownies.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formpagamento.cs">
+    <Compile Include="View\Formpagamento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formpagamento.Designer.cs">
+    <Compile Include="View\Formpagamento.Designer.cs">
       <DependentUpon>Formpagamento.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formcadastro.cs">
+    <Compile Include="View\Formcadastro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formcadastro.Designer.cs">
+    <Compile Include="View\Formcadastro.Designer.cs">
       <DependentUpon>Formcadastro.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formhome.cs">
+    <Compile Include="View\Formhome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formhome.Designer.cs">
+    <Compile Include="View\Formhome.Designer.cs">
       <DependentUpon>Formhome.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formbebidas.cs">
+    <Compile Include="View\Formbebidas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formbebidas.Designer.cs">
+    <Compile Include="View\Formbebidas.Designer.cs">
       <DependentUpon>Formbebidas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formcafé.cs">
+    <Compile Include="View\Formcafé.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formcafé.Designer.cs">
+    <Compile Include="View\Formcafé.Designer.cs">
       <DependentUpon>Formcafé.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formcafegelado.cs">
+    <Compile Include="View\Formcafegelado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formcafegelado.Designer.cs">
+    <Compile Include="View\Formcafegelado.Designer.cs">
       <DependentUpon>Formcafegelado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formsalgados.cs">
+    <Compile Include="View\Formsalgados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formsalgados.Designer.cs">
+    <Compile Include="View\Formsalgados.Designer.cs">
       <DependentUpon>Formsalgados.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formpaodequeijo.cs">
+    <Compile Include="View\Formpaodequeijo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formpaodequeijo.Designer.cs">
+    <Compile Include="View\Formpaodequeijo.Designer.cs">
       <DependentUpon>Formpaodequeijo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formbri.cs">
+    <Compile Include="View\Formbri.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formbri.Designer.cs">
+    <Compile Include="View\Formbri.Designer.cs">
       <DependentUpon>Formbri.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formcc.cs">
+    <Compile Include="View\Formcc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formcc.Designer.cs">
+    <Compile Include="View\Formcc.Designer.cs">
       <DependentUpon>Formcc.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formcombos.cs">
+    <Compile Include="View\Formcombos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formcombos.Designer.cs">
+    <Compile Include="View\Formcombos.Designer.cs">
       <DependentUpon>Formcombos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formmenu.cs">
+    <Compile Include="View\Formmenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formmenu.Designer.cs">
+    <Compile Include="View\Formmenu.Designer.cs">
       <DependentUpon>Formmenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formsobre.cs">
+    <Compile Include="View\Formsobre.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formsobre.Designer.cs">
+    <Compile Include="View\Formsobre.Designer.cs">
       <DependentUpon>Formsobre.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formsalada.cs">
+    <Compile Include="View\Formsalada.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formsalada.Designer.cs">
+    <Compile Include="View\Formsalada.Designer.cs">
       <DependentUpon>Formsalada.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\Clientes.cs" />
     <Compile Include="Model\ClientesDAO.cs" />
+    <Compile Include="Model\Produtos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forminicio.resx">
+    <EmbeddedResource Include="View\Forminicio.resx">
       <DependentUpon>Forminicio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formcarrinho.resx">
+    <EmbeddedResource Include="View\Formcarrinho.resx">
       <DependentUpon>Formcarrinho.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formcha.resx">
+    <EmbeddedResource Include="View\Formcha.resx">
       <DependentUpon>Formcha.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formchocolate.resx">
+    <EmbeddedResource Include="View\Formchocolate.resx">
       <DependentUpon>Formchocolate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formmilkshake.resx">
+    <EmbeddedResource Include="View\Formmilkshake.resx">
       <DependentUpon>Formmilkshake.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formsuco.resx">
+    <EmbeddedResource Include="View\Formsuco.resx">
       <DependentUpon>Formsuco.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formcoxinha.resx">
+    <EmbeddedResource Include="View\Formcoxinha.resx">
       <DependentUpon>Formcoxinha.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formcroissant.resx">
+    <EmbeddedResource Include="View\Formcroissant.resx">
       <DependentUpon>Formcroissant.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formpastel.resx">
+    <EmbeddedResource Include="View\Formpastel.resx">
       <DependentUpon>Formpastel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formempada.resx">
+    <EmbeddedResource Include="View\Formempada.resx">
       <DependentUpon>Formempada.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formquiche.resx">
+    <EmbeddedResource Include="View\Formquiche.resx">
       <DependentUpon>Formquiche.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formlogin.resx">
+    <EmbeddedResource Include="View\Formlogin.resx">
       <DependentUpon>Formlogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formsanduiche.resx">
+    <EmbeddedResource Include="View\Formsanduiche.resx">
       <DependentUpon>Formsanduiche.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formtortasalgada.resx">
+    <EmbeddedResource Include="View\Formtortasalgada.resx">
       <DependentUpon>Formtortasalgada.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formdoce.resx">
+    <EmbeddedResource Include="View\Formdoce.resx">
       <DependentUpon>Formdoce.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formtortadoce.resx">
+    <EmbeddedResource Include="View\Formtortadoce.resx">
       <DependentUpon>Formtortadoce.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formpanetone.resx">
+    <EmbeddedResource Include="View\Formpanetone.resx">
       <DependentUpon>Formpanetone.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formcoockies.resx">
+    <EmbeddedResource Include="View\Formcoockies.resx">
       <DependentUpon>Formcoockies.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formbolo.resx">
+    <EmbeddedResource Include="View\Formbolo.resx">
       <DependentUpon>Formbolo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formmuffins.resx">
+    <EmbeddedResource Include="View\Formmuffins.resx">
       <DependentUpon>Formmuffins.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formbrownies.resx">
+    <EmbeddedResource Include="View\Formbrownies.resx">
       <DependentUpon>Formbrownies.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formpagamento.resx">
+    <EmbeddedResource Include="View\Formpagamento.resx">
       <DependentUpon>Formpagamento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formcadastro.resx">
+    <EmbeddedResource Include="View\Formcadastro.resx">
       <DependentUpon>Formcadastro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formhome.resx">
+    <EmbeddedResource Include="View\Formhome.resx">
       <DependentUpon>Formhome.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formbebidas.resx">
+    <EmbeddedResource Include="View\Formbebidas.resx">
       <DependentUpon>Formbebidas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formcafé.resx">
+    <EmbeddedResource Include="View\Formcafé.resx">
       <DependentUpon>Formcafé.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formcafegelado.resx">
+    <EmbeddedResource Include="View\Formcafegelado.resx">
       <DependentUpon>Formcafegelado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formsalgados.resx">
+    <EmbeddedResource Include="View\Formsalgados.resx">
       <DependentUpon>Formsalgados.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formpaodequeijo.resx">
+    <EmbeddedResource Include="View\Formpaodequeijo.resx">
       <DependentUpon>Formpaodequeijo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formbri.resx">
+    <EmbeddedResource Include="View\Formbri.resx">
       <DependentUpon>Formbri.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formcc.resx">
+    <EmbeddedResource Include="View\Formcc.resx">
       <DependentUpon>Formcc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formcombos.resx">
+    <EmbeddedResource Include="View\Formcombos.resx">
       <DependentUpon>Formcombos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formmenu.resx">
+    <EmbeddedResource Include="View\Formmenu.resx">
       <DependentUpon>Formmenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formsobre.resx">
+    <EmbeddedResource Include="View\Formsobre.resx">
       <DependentUpon>Formsobre.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formsalada.resx">
+    <EmbeddedResource Include="View\Formsalada.resx">
       <DependentUpon>Formsalada.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

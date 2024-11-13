@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace cafeteria_ReNy.Model
 {
     internal class ClientesDAO
     {
-
-
-
         private Connection Connect { get; set; }
         private SqlCommand Command { get; set; }
         public ClientesDAO()

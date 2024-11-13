@@ -168,7 +168,7 @@
             this.label6.Text = "Home";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // Form10
+            // Formcarrinho
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -185,8 +185,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label1);
-            this.Name = "Form10";
+            this.Name = "Formcarrinho";
             this.Text = "Form10";
+            this.Load += new System.EventHandler(this.Formcarrinho_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

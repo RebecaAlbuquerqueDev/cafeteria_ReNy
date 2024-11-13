@@ -22,8 +22,14 @@ namespace cafeteria_ReNy.Model
         public string  Rua { get; set; }
         public int Ncasa { get; set; }
 
-       
-        
+        public Clientes (string email , string senha )
+        {
+            Email  = email;
+            Senha = senha; 
+        }
+
+
+
 
         public Clientes(int Codclientre ,string nomeCompleto, string  cpf, string email, string senha, string estado, int cep, string bairro, string rua, int ncasa) : 
             this(nomeCompleto, cpf, email, senha, estado, cep, bairro, rua, ncasa)
