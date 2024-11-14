@@ -29,7 +29,7 @@ namespace cafeteria_ReNy.Model
 
             Command.Parameters.AddWithValue("@produtoname", produtos.ProdutoName);
             Command.Parameters.AddWithValue("@produtoPreco", produtos.ProdutoPreco);
-            Command.Parameters.AddWithValue("@Categoria", produtos.ProdutoName );
+            Command.Parameters.AddWithValue("@Categoria", produtos.Categoria);
            
             try
             {
@@ -55,12 +55,14 @@ namespace cafeteria_ReNy.Model
             Command.CommandText = @"UPDATE Produtos SET 
             ProdutoName = @produtoName,
             ProdutoPreco = @produtoPreco,
+            Categoria = @categoria
             ";
 
             Command.Parameters.AddWithValue("@id", produtos.Id);
             Command.Parameters.AddWithValue("@produtoName", produtos.ProdutoName);
             Command.Parameters.AddWithValue("@produtoPreco", produtos.ProdutoPreco);
-          
+            Command.Parameters.AddWithValue("@produtoPreco", produtos.Categoria);
+
 
             try
             {
@@ -104,7 +106,7 @@ namespace cafeteria_ReNy.Model
             Command.Connection = Connect.ReturnConnection();
             Command.CommandText = "SELECT * FROM produtos";
 
-            List<Produtos> brokers = new List<Produtos>(); //Instancio a list com o tamanho padrão.
+            List<Produtos> produtos1  = new List<Produtos>(); //Instancio a list com o tamanho padrão.
             try
             {
                 SqlDataReader rd = Command.ExecuteReader();
@@ -112,14 +114,14 @@ namespace cafeteria_ReNy.Model
                 //Enquanto for possível continuar a leitura das linhas que foram retornadas na consulta, execute.
                 while (rd.Read())
                 {
-                    Produtos produtos = new produtos(
+                    Produtos produtos = new Produtos(
                         (int)rd["Id"],
                         (string)rd["ProdutoName"],
                         (float)rd["ProdutoPreco"],
                         (string)rd["Categoria"]
                         
                         );
-                    produtos.Add(produtos);
+                    produtos1.Add(produtos);
                 }
                 rd.Close();
             }
@@ -133,17 +135,19 @@ namespace cafeteria_ReNy.Model
                 Connect.CloseConnection();
             }
 
-            return brokers;
+            return produtos1;
         }
         public bool ValidateLogin(Produtos produtos )
         {
 
             Command.Connection = Connect.ReturnConnection();
-            Command.CommandText = "SELECT * FROM Broker WHERE " +
-                                  "BrokerCode = @brokerCode AND " +
-                                  "Password = @password";
+            Command.CommandText = "SELECT * FROM produtos WHERE " +
+                                  "ProdutosName = @produtosName AND " +
+                                  "ProdutosPreco = @produtosPreco" +
+                                  "Categoria = @categoria";
             Command.Parameters.AddWithValue("@brokerCode", produtos.ProdutoName);
             Command.Parameters.AddWithValue("@password", produtos.ProdutoPreco);
+            Command.Parameters.AddWithValue("@password", produtos.Categoria);
 
             try
             {

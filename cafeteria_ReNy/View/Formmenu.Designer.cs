@@ -43,11 +43,12 @@
             this.txbid = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txbcategoria = new System.Windows.Forms.TextBox();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnInsert = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
-            this.txbcategoria = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -132,7 +133,7 @@
             // 
             // ID
             // 
-            this.ID.Text = "pedro e burro";
+            this.ID.Text = "ID do produto ";
             this.ID.Width = 269;
             // 
             // ProdutoName
@@ -155,7 +156,7 @@
             this.txbnome.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.txbnome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbnome.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txbnome.Location = new System.Drawing.Point(0, 110);
+            this.txbnome.Location = new System.Drawing.Point(415, 39);
             this.txbnome.Name = "txbnome";
             this.txbnome.Size = new System.Drawing.Size(433, 29);
             this.txbnome.TabIndex = 29;
@@ -164,7 +165,7 @@
             // 
             this.txbpreco.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.txbpreco.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbpreco.Location = new System.Drawing.Point(135, 379);
+            this.txbpreco.Location = new System.Drawing.Point(566, 176);
             this.txbpreco.Name = "txbpreco";
             this.txbpreco.Size = new System.Drawing.Size(282, 29);
             this.txbpreco.TabIndex = 30;
@@ -173,7 +174,7 @@
             // 
             this.txbid.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.txbid.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbid.Location = new System.Drawing.Point(11, 46);
+            this.txbid.Location = new System.Drawing.Point(11, 39);
             this.txbid.Name = "txbid";
             this.txbid.Size = new System.Drawing.Size(66, 29);
             this.txbid.TabIndex = 31;
@@ -193,14 +194,25 @@
             this.groupBox1.Controls.Add(this.txbcategoria);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.txbnome);
+            this.groupBox1.Controls.Add(this.txbpreco);
             this.groupBox1.Controls.Add(this.txbid);
             this.groupBox1.Location = new System.Drawing.Point(135, 150);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(896, 214);
+            this.groupBox1.Size = new System.Drawing.Size(896, 279);
             this.groupBox1.TabIndex = 33;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // txbcategoria
+            // 
+            this.txbcategoria.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.txbcategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbcategoria.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.txbcategoria.Location = new System.Drawing.Point(6, 176);
+            this.txbcategoria.Name = "txbcategoria";
+            this.txbcategoria.Size = new System.Drawing.Size(433, 29);
+            this.txbcategoria.TabIndex = 33;
             // 
             // btnUpdate
             // 
@@ -208,7 +220,7 @@
             this.btnUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(37)))), ((int)(((byte)(87)))));
             this.btnUpdate.Location = new System.Drawing.Point(1046, 205);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(118, 45);
+            this.btnUpdate.Size = new System.Drawing.Size(214, 45);
             this.btnUpdate.TabIndex = 41;
             this.btnUpdate.Text = "Editar";
             this.btnUpdate.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -222,7 +234,7 @@
             this.btnDelete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(37)))), ((int)(((byte)(87)))));
             this.btnDelete.Location = new System.Drawing.Point(1046, 312);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(118, 43);
+            this.btnDelete.Size = new System.Drawing.Size(214, 43);
             this.btnDelete.TabIndex = 40;
             this.btnDelete.Text = "Excluir";
             this.btnDelete.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -236,7 +248,7 @@
             this.btnInsert.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(37)))), ((int)(((byte)(87)))));
             this.btnInsert.Location = new System.Drawing.Point(1046, 260);
             this.btnInsert.Name = "btnInsert";
-            this.btnInsert.Size = new System.Drawing.Size(118, 43);
+            this.btnInsert.Size = new System.Drawing.Size(214, 43);
             this.btnInsert.TabIndex = 39;
             this.btnInsert.Text = "Inserir";
             this.btnInsert.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -249,22 +261,25 @@
             this.btnClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(37)))), ((int)(((byte)(87)))));
             this.btnClear.Location = new System.Drawing.Point(1046, 150);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(118, 45);
+            this.btnClear.Size = new System.Drawing.Size(214, 45);
             this.btnClear.TabIndex = 38;
             this.btnClear.Text = "Limpar";
             this.btnClear.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
-            // txbcategoria
+            // button1
             // 
-            this.txbcategoria.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.txbcategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbcategoria.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txbcategoria.Location = new System.Drawing.Point(0, 162);
-            this.txbcategoria.Name = "txbcategoria";
-            this.txbcategoria.Size = new System.Drawing.Size(433, 29);
-            this.txbcategoria.TabIndex = 33;
+            this.button1.Font = new System.Drawing.Font("Segoe Fluent Icons", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(37)))), ((int)(((byte)(87)))));
+            this.button1.Location = new System.Drawing.Point(1046, 370);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(214, 43);
+            this.button1.TabIndex = 42;
+            this.button1.Text = "Adicionar ao carrinho";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Visible = false;
             // 
             // Formmenu
             // 
@@ -272,10 +287,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::cafeteria_ReNy.Properties.Resources.Design_sem_nome__2_10;
             this.ClientSize = new System.Drawing.Size(1896, 1058);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnInsert);
-            this.Controls.Add(this.txbpreco);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lsvprodutos);
@@ -316,5 +331,6 @@
         private System.Windows.Forms.Button btnInsert;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.TextBox txbcategoria;
+        private System.Windows.Forms.Button button1;
     }
 }
