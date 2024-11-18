@@ -73,8 +73,8 @@ namespace cafeteria_ReNy
                 {
                     //Capture inputed text from fields.
                     if (new ProdutosDAO().Insert(new Produtos (
-                        int.Parse(txbid.Text), txbnome.Text, txbcategoria.Text,
-                        txbpreco.Text)))
+                        int.Parse(txbid.Text), txbnome.Text,
+                        float.Parse (txbpreco.Text),txbcategoria.Text)))
                         MessageBox.Show("Produto cadastrado!", "SUCESSO", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 catch (Exception error)
