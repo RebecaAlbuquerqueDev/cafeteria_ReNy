@@ -150,9 +150,10 @@ namespace cafeteria_ReNy
                 try
                 {
                     //Capture inputed text from fields.
-                    new ProdutosDAO().Update(new Produtos(Id ,
+                    new ProdutosDAO().Update(new Produtos(
                         int.Parse ( txbid.Text), txbnome.Text,
-                        txbcategoria.Text, txbpreco.Text));
+                        float.Parse (txbpreco.Text),
+                        txbcategoria.Text));
                     MessageBox.Show("Produto atualizado!", "SUCESSO", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 catch (Exception error)
