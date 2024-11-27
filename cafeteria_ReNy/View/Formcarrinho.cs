@@ -68,7 +68,7 @@ namespace cafeteria_ReNy
 
         private void Formcarrinho_Load(object sender, EventArgs e)
         {
-            UpdateListView();
+            
         }
     }
 }

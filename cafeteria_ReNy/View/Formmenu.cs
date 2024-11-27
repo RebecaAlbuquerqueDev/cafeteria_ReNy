@@ -57,7 +57,7 @@ namespace cafeteria_ReNy
                 //Creating a fully line of listview with items from database.
                 ListViewItem item = new ListViewItem(produtos.Id.ToString());
                 item.SubItems.Add(produtos.ProdutoName);
-                item.SubItems.Add(produtos.ProdutoPreco);
+                item.SubItems.Add(produtos.ProdutoPreco.ToString("F2"));
                 item.SubItems.Add(produtos.Categoria);
                 
                 //Adding the fully line to the listview.
