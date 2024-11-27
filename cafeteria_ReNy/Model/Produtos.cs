@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MarqueSeuImovel.Model
 {
-    internal class Produtos
+    internal class Item
     {
        // private int v1;
         //private string v2;
@@ -20,13 +20,13 @@ namespace MarqueSeuImovel.Model
 
 
 
-        public Produtos (int id, string ProdutoName, float  ProdutoPreco, string categoria
+        public Item (int id, string ProdutoName, float  ProdutoPreco, string categoria
            ) : this(ProdutoName, ProdutoPreco, categoria )
         {
             Id = id;
         }
 
-        public Produtos (string produtoName, float  produtoPreco, string categoria )
+        public Item (string produtoName, float  produtoPreco, string categoria )
         {
             ProdutoName = produtoName;
             ProdutoPreco  = produtoPreco;

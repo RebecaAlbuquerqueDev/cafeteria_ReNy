@@ -49,10 +49,10 @@ namespace cafeteria_ReNy
             lsvprodutos.Items.Clear();
 
             ProdutosDAO produtosDAO = new ProdutosDAO();
-            List<Produtos> produtos1 = produtosDAO.ListAllProdutos();
+            List<Item> produtos1 = produtosDAO.ListAllProdutos();
 
             //This code part access all brokers received from database and iterate by them.
-            foreach (Produtos produtos  in produtos1)
+            foreach (Item produtos in produtos1)
             {
                 //Creating a fully line of listview with items from database.
                 ListViewItem item = new ListViewItem(produtos.Id.ToString());
@@ -72,7 +72,7 @@ namespace cafeteria_ReNy
                 try
                 {
                     //Capture inputed text from fields.
-                    if (new ProdutosDAO().Insert(new Produtos (
+                    if (new ProdutosDAO().Insert(new Item (
                         int.Parse(txbid.Text), txbnome.Text,
                         float.Parse (txbpreco.Text),txbcategoria.Text)))
                         MessageBox.Show("Produto cadastrado!", "SUCESSO", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -150,7 +150,7 @@ namespace cafeteria_ReNy
                 try
                 {
                     //Capture inputed text from fields.
-                    new ProdutosDAO().Update(new Produtos(
+                    new ProdutosDAO().Update(new Item(
                         int.Parse ( txbid.Text), txbnome.Text,
                         float.Parse (txbpreco.Text),
                         txbcategoria.Text));

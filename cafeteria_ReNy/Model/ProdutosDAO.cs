@@ -19,7 +19,7 @@ namespace cafeteria_ReNy.Model
             Connect = new Connection();
             Command = new SqlCommand();
         }
-        public bool Insert(Produtos produtos )
+        public bool Insert(Item item )
         {
             Command.Connection = Connect.ReturnConnection();
             Command.CommandText =
@@ -27,9 +27,9 @@ namespace cafeteria_ReNy.Model
             Produtos VALUES 
             (@ProdutoNameName, @ProdutoPreco @Categoria)";
 
-            Command.Parameters.AddWithValue("@produtoname", produtos.ProdutoName);
-            Command.Parameters.AddWithValue("@produtoPreco", produtos.ProdutoPreco);
-            Command.Parameters.AddWithValue("@Categoria", produtos.Categoria);
+            Command.Parameters.AddWithValue("@produtoname", item.ProdutoName);
+            Command.Parameters.AddWithValue("@produtoPreco", item.ProdutoPreco);
+            Command.Parameters.AddWithValue("@Categoria", item.Categoria);
            
             try
             {
@@ -49,7 +49,7 @@ namespace cafeteria_ReNy.Model
         }
 
 
-        public void Update(Produtos produtos)
+        public void Update(Item item)
         {
             Command.Connection = Connect.ReturnConnection();
             Command.CommandText = @"UPDATE Produtos SET 
@@ -58,10 +58,10 @@ namespace cafeteria_ReNy.Model
             Categoria = @categoria
             ";
 
-            Command.Parameters.AddWithValue("@id", produtos.Id);
-            Command.Parameters.AddWithValue("@produtoName", produtos.ProdutoName);
-            Command.Parameters.AddWithValue("@produtoPreco", produtos.ProdutoPreco);
-            Command.Parameters.AddWithValue("@produtoPreco", produtos.Categoria);
+            Command.Parameters.AddWithValue("@id", item.Id);
+            Command.Parameters.AddWithValue("@produtoName", item.ProdutoName);
+            Command.Parameters.AddWithValue("@produtoPreco", item.ProdutoPreco);
+            Command.Parameters.AddWithValue("@produtoPreco", item.Categoria);
 
 
             try
@@ -100,13 +100,13 @@ namespace cafeteria_ReNy.Model
                 Connect.CloseConnection();
             }
         }
-        public List<Produtos> ListAllProdutos()
+        public List<Item> ListAllProdutos()
         {
 
             Command.Connection = Connect.ReturnConnection();
             Command.CommandText = "SELECT * FROM produtos";
 
-            List<Produtos> produtos1  = new List<Produtos>(); //Instancio a list com o tamanho padrão.
+            List<Item> produtos1  = new List<Item>(); //Instancio a list com o tamanho padrão.
             try
             {
                 SqlDataReader rd = Command.ExecuteReader();
@@ -114,14 +114,14 @@ namespace cafeteria_ReNy.Model
                 //Enquanto for possível continuar a leitura das linhas que foram retornadas na consulta, execute.
                 while (rd.Read())
                 {
-                    Produtos produtos = new Produtos(
+                    Item item = new Item(
                         (int)rd["Id"],
                         (string)rd["ProdutoName"],
                         (float)rd["ProdutoPreco"],
                         (string)rd["Categoria"]
                         
                         );
-                    produtos1.Add(produtos);
+                    produtos1.Add(item);
                 }
                 rd.Close();
             }
@@ -137,7 +137,7 @@ namespace cafeteria_ReNy.Model
 
             return produtos1;
         }
-        public bool ValidateLogin(Produtos produtos )
+        public bool ValidateLogin(Item item )
         {
 
             Command.Connection = Connect.ReturnConnection();
@@ -145,9 +145,9 @@ namespace cafeteria_ReNy.Model
                                   "ProdutosName = @produtosName AND " +
                                   "ProdutosPreco = @produtosPreco" +
                                   "Categoria = @categoria";
-            Command.Parameters.AddWithValue("@brokerCode", produtos.ProdutoName);
-            Command.Parameters.AddWithValue("@password", produtos.ProdutoPreco);
-            Command.Parameters.AddWithValue("@password", produtos.Categoria);
+            Command.Parameters.AddWithValue("@brokerCode", item.ProdutoName);
+            Command.Parameters.AddWithValue("@password", item.ProdutoPreco);
+            Command.Parameters.AddWithValue("@password", item.Categoria);
 
             try
             {

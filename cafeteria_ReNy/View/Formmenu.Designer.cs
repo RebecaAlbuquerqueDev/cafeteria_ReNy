@@ -155,7 +155,7 @@
             // 
             this.txbnome.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.txbnome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbnome.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.txbnome.ForeColor = System.Drawing.SystemColors.Control;
             this.txbnome.Location = new System.Drawing.Point(415, 39);
             this.txbnome.Name = "txbnome";
             this.txbnome.Size = new System.Drawing.Size(433, 29);
@@ -165,6 +165,7 @@
             // 
             this.txbpreco.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.txbpreco.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbpreco.ForeColor = System.Drawing.SystemColors.Control;
             this.txbpreco.Location = new System.Drawing.Point(566, 176);
             this.txbpreco.Name = "txbpreco";
             this.txbpreco.Size = new System.Drawing.Size(282, 29);
@@ -174,6 +175,7 @@
             // 
             this.txbid.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.txbid.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbid.ForeColor = System.Drawing.SystemColors.Control;
             this.txbid.Location = new System.Drawing.Point(11, 39);
             this.txbid.Name = "txbid";
             this.txbid.Size = new System.Drawing.Size(66, 29);
@@ -208,7 +210,7 @@
             // 
             this.txbcategoria.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.txbcategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbcategoria.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.txbcategoria.ForeColor = System.Drawing.SystemColors.Control;
             this.txbcategoria.Location = new System.Drawing.Point(6, 176);
             this.txbcategoria.Name = "txbcategoria";
             this.txbcategoria.Size = new System.Drawing.Size(433, 29);
@@ -286,7 +288,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::cafeteria_ReNy.Properties.Resources.Design_sem_nome__2_10;
-            this.ClientSize = new System.Drawing.Size(1896, 1058);
+            this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnDelete);
