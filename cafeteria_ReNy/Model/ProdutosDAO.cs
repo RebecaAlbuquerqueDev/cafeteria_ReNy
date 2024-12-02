@@ -1,5 +1,4 @@
 ﻿using cafeteria_ReNy.Model;
-using MarqueSeuImovel.Model;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -27,9 +26,9 @@ namespace cafeteria_ReNy.Model
             Itens VALUES 
             (@ProdutoName, @ProdutoPreco, @Categoria)";
 
-            Command.Parameters.AddWithValue("@ProdutoName", item.ProdutoName);
-            Command.Parameters.AddWithValue("@ProdutoPreco", item.ProdutoPreco);
-            Command.Parameters.AddWithValue("@Categoria", item.Categoria);
+            Command.Parameters.AddWithValue("@ProdutoName", itens.ProdutoName);
+            Command.Parameters.AddWithValue("@ProdutoPreco", itens.ProdutoPreco);
+            Command.Parameters.AddWithValue("@Categoria", itens.Categoria);
            
             try
             {
@@ -100,13 +99,13 @@ namespace cafeteria_ReNy.Model
                 Connect.CloseConnection();
             }
         }
-        public List<Item> ListAllProdutos()
+        public List<Itens> ListAllProdutos()
         {
 
             Command.Connection = Connect.ReturnConnection();
             Command.CommandText = "SELECT * FROM Itens";
 
-            List<Item> produtos1  = new List<Item>(); //Instancio a list com o tamanho padrão.
+            List<Itens> produtos1  = new List<Itens>(); //Instancio a list com o tamanho padrão.
             try
             {
                 SqlDataReader rd = Command.ExecuteReader();
@@ -114,7 +113,7 @@ namespace cafeteria_ReNy.Model
                 //Enquanto for possível continuar a leitura das linhas que foram retornadas na consulta, execute.
                 while (rd.Read())
                 {
-                    Item item = new Item(
+                    Itens item = new Itens(
                         (int)rd["Id"],
                         (string)rd["ProdutoName"],
                         (float)rd["ProdutoPreco"],
@@ -137,7 +136,7 @@ namespace cafeteria_ReNy.Model
 
             return produtos1;
         }
-        public bool ValidateLogin(Item item )
+        public bool ValidateLogin(Itens item )
         {
 
             Command.Connection = Connect.ReturnConnection();
