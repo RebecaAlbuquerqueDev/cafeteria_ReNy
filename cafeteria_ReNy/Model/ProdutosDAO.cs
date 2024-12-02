@@ -19,16 +19,16 @@ namespace cafeteria_ReNy.Model
             Connect = new Connection();
             Command = new SqlCommand();
         }
-        public bool Insert(Item item )
+        public bool Insert(Itens itens )
         {
             Command.Connection = Connect.ReturnConnection();
             Command.CommandText =
             @"INSERT INTO 
-            Produtos VALUES 
-            (@ProdutoNameName, @ProdutoPreco @Categoria)";
+            Itens VALUES 
+            (@ProdutoName, @ProdutoPreco, @Categoria)";
 
-            Command.Parameters.AddWithValue("@produtoname", item.ProdutoName);
-            Command.Parameters.AddWithValue("@produtoPreco", item.ProdutoPreco);
+            Command.Parameters.AddWithValue("@ProdutoName", item.ProdutoName);
+            Command.Parameters.AddWithValue("@ProdutoPreco", item.ProdutoPreco);
             Command.Parameters.AddWithValue("@Categoria", item.Categoria);
            
             try
@@ -49,19 +49,19 @@ namespace cafeteria_ReNy.Model
         }
 
 
-        public void Update(Item item)
+        public void Update(Itens itens)
         {
             Command.Connection = Connect.ReturnConnection();
-            Command.CommandText = @"UPDATE Produtos SET 
+            Command.CommandText = @"UPDATE Itens SET 
             ProdutoName = @produtoName,
             ProdutoPreco = @produtoPreco,
             Categoria = @categoria
             ";
 
-            Command.Parameters.AddWithValue("@id", item.Id);
-            Command.Parameters.AddWithValue("@produtoName", item.ProdutoName);
-            Command.Parameters.AddWithValue("@produtoPreco", item.ProdutoPreco);
-            Command.Parameters.AddWithValue("@produtoPreco", item.Categoria);
+            Command.Parameters.AddWithValue("@id", itens.Id);
+            Command.Parameters.AddWithValue("@produtoName", itens.ProdutoName);
+            Command.Parameters.AddWithValue("@produtoPreco", itens.ProdutoPreco);
+            Command.Parameters.AddWithValue("@produtoPreco", itens.Categoria);
 
 
             try
@@ -83,7 +83,7 @@ namespace cafeteria_ReNy.Model
         public void Delete(int id)
         {
             Command.Connection = Connect.ReturnConnection();
-            Command.CommandText = @"DELETE FROM Produtos 
+            Command.CommandText = @"DELETE FROM Itens 
             WHERE Id = @id";
             Command.Parameters.AddWithValue("@id", id );
             try
@@ -104,7 +104,7 @@ namespace cafeteria_ReNy.Model
         {
 
             Command.Connection = Connect.ReturnConnection();
-            Command.CommandText = "SELECT * FROM produtos";
+            Command.CommandText = "SELECT * FROM Itens";
 
             List<Item> produtos1  = new List<Item>(); //Instancio a list com o tamanho padrão.
             try
@@ -141,7 +141,7 @@ namespace cafeteria_ReNy.Model
         {
 
             Command.Connection = Connect.ReturnConnection();
-            Command.CommandText = "SELECT * FROM produtos WHERE " +
+            Command.CommandText = "SELECT * FROM Itens WHERE " +
                                   "ProdutosName = @produtosName AND " +
                                   "ProdutosPreco = @produtosPreco" +
                                   "Categoria = @categoria";

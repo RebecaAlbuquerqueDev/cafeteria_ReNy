@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MarqueSeuImovel.Model
+namespace cafeteria_ReNy.Model
 {
-    internal class Item
+    internal class Itens
     {
-       // private int v1;
-        //private string v2;
-       // private float v3;
-        //private string v4;
+       private int v1;
+       private string v2;
+       private float v3;
+       private string v4;
 
         public int Id { get; set; }
         public string ProdutoName { get; private set; }
@@ -20,13 +20,13 @@ namespace MarqueSeuImovel.Model
 
 
 
-        public Item (int id, string ProdutoName, float  ProdutoPreco, string categoria
+        public Itens (int id, string ProdutoName, float  ProdutoPreco, string categoria
            ) : this(ProdutoName, ProdutoPreco, categoria )
         {
             Id = id;
         }
 
-        public Item (string produtoName, float  produtoPreco, string categoria )
+        public Itens (string produtoName, float  produtoPreco, string categoria )
         {
             ProdutoName = produtoName;
             ProdutoPreco  = produtoPreco;
@@ -34,12 +34,12 @@ namespace MarqueSeuImovel.Model
             
         }
 
-       // public Produtos(int v1, string v2, float v3, string v4)
-      //  {
-           // this.v1 = v1;
-           // this.v2 = v2;
-           // this.v3 = v3;
-           // this.v4 = v4;
-        //}
+       public Produtos(int v1, string v2, float v3, string v4)
+        {
+            this.v1 = v1;
+            this.v2 = v2;
+            this.v3 = v3;
+            this.v4 = v4;
+        }
     }
 }

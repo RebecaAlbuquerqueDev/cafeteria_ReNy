@@ -49,6 +49,9 @@
             this.btnInsert = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -124,9 +127,9 @@
             this.Categoria,
             this.Preço});
             this.lsvprodutos.HideSelection = false;
-            this.lsvprodutos.Location = new System.Drawing.Point(48, 639);
+            this.lsvprodutos.Location = new System.Drawing.Point(48, 515);
             this.lsvprodutos.Name = "lsvprodutos";
-            this.lsvprodutos.Size = new System.Drawing.Size(1809, 301);
+            this.lsvprodutos.Size = new System.Drawing.Size(1809, 397);
             this.lsvprodutos.TabIndex = 28;
             this.lsvprodutos.UseCompatibleStateImageBehavior = false;
             this.lsvprodutos.View = System.Windows.Forms.View.Details;
@@ -153,9 +156,9 @@
             // 
             // txbnome
             // 
-            this.txbnome.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.txbnome.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.txbnome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbnome.ForeColor = System.Drawing.SystemColors.Control;
+            this.txbnome.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txbnome.Location = new System.Drawing.Point(415, 39);
             this.txbnome.Name = "txbnome";
             this.txbnome.Size = new System.Drawing.Size(433, 29);
@@ -163,9 +166,9 @@
             // 
             // txbpreco
             // 
-            this.txbpreco.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.txbpreco.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.txbpreco.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbpreco.ForeColor = System.Drawing.SystemColors.Control;
+            this.txbpreco.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txbpreco.Location = new System.Drawing.Point(566, 176);
             this.txbpreco.Name = "txbpreco";
             this.txbpreco.Size = new System.Drawing.Size(282, 29);
@@ -173,9 +176,9 @@
             // 
             // txbid
             // 
-            this.txbid.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.txbid.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.txbid.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbid.ForeColor = System.Drawing.SystemColors.Control;
+            this.txbid.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txbid.Location = new System.Drawing.Point(11, 39);
             this.txbid.Name = "txbid";
             this.txbid.Size = new System.Drawing.Size(66, 29);
@@ -193,6 +196,9 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txbcategoria);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.txbnome);
@@ -208,9 +214,9 @@
             // 
             // txbcategoria
             // 
-            this.txbcategoria.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.txbcategoria.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.txbcategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbcategoria.ForeColor = System.Drawing.SystemColors.Control;
+            this.txbcategoria.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txbcategoria.Location = new System.Drawing.Point(6, 176);
             this.txbcategoria.Name = "txbcategoria";
             this.txbcategoria.Size = new System.Drawing.Size(433, 29);
@@ -283,12 +289,39 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Visible = false;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(403, 11);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(33, 13);
+            this.label3.TabIndex = 34;
+            this.label3.Text = "nome";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(8, 162);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(51, 13);
+            this.label8.TabIndex = 35;
+            this.label8.Text = "categoria";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(578, 150);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(34, 13);
+            this.label9.TabIndex = 36;
+            this.label9.Text = "preço";
+            // 
             // Formmenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::cafeteria_ReNy.Properties.Resources.Design_sem_nome__2_10;
-            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.ClientSize = new System.Drawing.Size(1920, 1028);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnDelete);
@@ -334,5 +367,8 @@
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.TextBox txbcategoria;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label3;
     }
 }
